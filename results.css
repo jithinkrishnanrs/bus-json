@@ -10,6 +10,23 @@ th, td {
     text-align: left;
 }
 
+#results-container {
+    max-height: calc(100vh - 100px); /* Adjust the 100px based on your header and footer heights */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the maximum height */
+    background-color: #f4f4f4; /* Light gray background color */
+    padding: 20px; /* Add padding around the results tables */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Additional style for tables within the container */
+#results-container table {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Optional: Add rounded corners to tables */
+}
+
 /* Style for alternate row background color */
 tr:nth-child(even) {
     background-color: #f9f9f9; /* Alternate row background color */
