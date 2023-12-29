@@ -8,7 +8,10 @@ document.addEventListener("DOMContentLoaded", function () {
             initializeSearchableDropdown(jsonDataArray, 'origin');
             initializeSearchableDropdown(jsonDataArray, 'destination');
         })
-        .catch(error => console.error('Error fetching JSON:', error));
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+            // Add error handling logic here if needed
+        });
 });
 
 function initializeSearchableDropdown(jsonDataArray, dropdownId) {
@@ -43,12 +46,24 @@ function getUniqueStations(jsonDataArray) {
     return Array.from(allStations);
 }
 
-function showResults() {
+function showResults(event) {
+    event.preventDefault(); // Prevent form submission
+
     const originDropdown = $('#origin');
     const destinationDropdown = $('#destination');
     const originValue = originDropdown.val();
     const destinationValue = destinationDropdown.val();
 
-    // Redirect to results.html with query parameters
-    window.location.href = `results.html?origin=${originValue}&destination=${destinationValue}`;
+    // Show loading overlay or spinner
+    showLoading();
+
+    // Use setTimeout to simulate a delay of 100 milliseconds
+    setTimeout(() => {
+        // Redirect to results.html with query parameters
+        window.location.href = `results.html?origin=${originValue}&destination=${destinationValue}`;
+    }, 100); // 100 milliseconds
+}
+
+function showLoading() {
+    document.getElementById('loading-overlay').style.display = 'flex';
 }
