@@ -44,14 +44,9 @@ tr:nth-child(even) {
         padding: 8px; /* Decrease padding for smaller screens */
     }
 
-    /* Hide some columns on smaller screens or adjust as needed */
-    .hide-on-mobile {
-        display: none;
-    }
-
     /* Make the schedule table more responsive */
     .schedule-table th, .schedule-table td {
-        width: 100%; /* Full width for each column on smaller screens */
+        width: calc(100vh - 100px); /* Full width for each column on smaller screens */
         text-align: left;
         display: block;
         box-sizing: border-box;
