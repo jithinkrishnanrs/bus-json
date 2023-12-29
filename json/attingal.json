@@ -2,6 +2,7 @@
     "busSchedules": [
       {
         "Vehicle Number": "KL 01 AA 8594",
+        "Vehicle Name": "Test",
         "route": [
           "KARETTE",
           "ANCHUTHENGU"

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const jsonFiles = ['attingal.json', 'ernakulam.json', 'pathanamthitta.json']; // Add your file paths here
+    const jsonFiles = ['json/attingal.json', 'json/ernakulam.json', 'json/pathanamthitta.json']; // Add your file paths here
 
     // Fetch data from each JSON file
     Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json())))
@@ -25,7 +25,7 @@ function initializeSearchableDropdown(jsonDataArray, dropdownId) {
     dropdown.select2({
         data: uniqueStations.map(station => ({ id: station, text: station })),
         width: '100%', // Adjust the width as needed
-        placeholder: `Select ${dropdownId.charAt(0).toUpperCase() + dropdownId.slice(1)}...`
+        placeholder: `Search ${dropdownId.charAt(0).toUpperCase() + dropdownId.slice(1)} Stop...`
     });
 }
 

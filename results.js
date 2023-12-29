@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log('Origin:', origin);
     console.log('Destination:', destination);
 
-    const jsonFiles = ['attingal.json', 'ernakulam.json', 'pathanamthitta.json']; // Add your file paths here
+    const jsonFiles = ['json/attingal.json', 'json/ernakulam.json', 'json/pathanamthitta.json']; // Add your file paths here
 
     // Fetch data from each JSON file
     Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json())))
@@ -40,6 +40,7 @@ function filterSchedules(jsonDataArray, origin, destination) {
                 if (matchingStations.length > 0) {
                     filteredSchedules.push({
                         busNumber: schedule['Vehicle Number'],
+                        busName: schedule['Vehicle Name'],
                         tripDetails: matchingStations,
                     });
                 }
@@ -71,11 +72,12 @@ function displayResults(schedules, origin, destination) {
     if (schedules.length > 0) {
         schedules.forEach(schedule => {
             const busNumber = schedule.busNumber;
+            const busName = schedule.busName || '';
 
             schedule.tripDetails.forEach(trip => {
                 const table = document.createElement('table');
                 table.innerHTML = `
-                    <caption>${busNumber} - Trip ${trip.trip}</caption>
+                    <caption>${busNumber} - ${busName} - Trip ${trip.trip}</caption>
                     <tr>
                         <th>Stop</th>
                         <th>Arrival Time</th>
@@ -97,7 +99,7 @@ function displayResults(schedules, origin, destination) {
             });
         });
     } else {
-        resultsContainer.innerHTML = '<p>No trips found for the selected stations.</p>';
+        resultsContainer.innerHTML = '<p>No bus found for the selected stops!</p>';
     }
 }
 
