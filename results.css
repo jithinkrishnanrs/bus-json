@@ -20,16 +20,26 @@ th, td {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
-/* Additional style for tables within the container */
+/* Style for table heading */
+#results-container th {
+    background-color: #007bff; /* Heading background color */
+    color: #fff; /* Heading text color */
+}
+
+/* Additional style for tables within the container, including alternate row background color */
 #results-container table {
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px; /* Optional: Add rounded corners to tables */
 }
 
-/* Style for alternate row background color */
-tr:nth-child(even) {
-    background-color: #f9f9f9; /* Alternate row background color */
+/* Style for alternate row background colors within tables */
+#results-container tr:nth-child(even) {
+    background-color: #e6f7ff; /* Alternate row background color 1 */
+}
+
+#results-container tr:nth-child(odd) {
+    background-color: #cce5ff; /* Alternate row background color 2 */
 }
 
 /* Style for the schedule table */
