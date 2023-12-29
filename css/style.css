@@ -67,6 +67,7 @@ body {
 	line-height: 1.80857;
 	font-weight: normal;
 	overflow-x: hidden;
+	min-height: 100vh;
 	background-image: url('../images/391735418_6498295986955036_311284559108911869_n.jpg');
 	background-size: contain;
 }
@@ -2129,7 +2130,8 @@ margin-top: 20px;
 .footer {
 	background: #1b1b1b;
     padding-top: 10px;
-	margin-top: 15px;
+	margin-top: auto;
+
 }
 ul.sociel {
 	display: flex;
