@@ -1,3 +1,5 @@
+// results.js
+
 document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const origin = urlParams.get('origin');
@@ -6,7 +8,22 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log('Origin:', origin);
     console.log('Destination:', destination);
 
-    const jsonFiles = ['json/attingal.json', 'json/ernakulam.json', 'json/pathanamthitta.json']; // Add your file paths here
+    const jsonFiles = [
+        'json/alappuzha.json',
+        'json/attingal.json',
+        'json/ernakulam.json',
+        'json/idukki.json',
+        'json/kannur.json',
+        'json/kottayam.json',
+        'json/kozhikkode.json',
+        'json/malapuram.json',
+        'json/muvattupuzha.json',
+        'json/palakkad-1.json',
+        'json/palakkad-2.json',
+        'json/pathanamthitta.json',
+        'json/vadakara.json',
+        'json/wayanad.json'
+      ];
 
     // Fetch data from each JSON file
     Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json())))
@@ -76,24 +93,41 @@ function displayResults(schedules, origin, destination) {
 
             schedule.tripDetails.forEach(trip => {
                 const table = document.createElement('table');
-                table.innerHTML = `
-                    <caption>${busNumber} - ${busName} - Trip ${trip.trip}</caption>
-                    <tr>
-                        <th>Stop</th>
-                        <th>Arrival Time</th>
-                        <th>Departure Time</th>
-                    </tr>
-                `;
+                const tbody = document.createElement('tbody');
 
-                trip.stations.forEach(station => {
+                trip.stations.forEach((station, index) => {
                     const row = document.createElement('tr');
-                    row.innerHTML = `
+
+                    if (index === 0) {
+                        // rowspan for the first row
+                        const rowspan = trip.stations.length;
+                        row.innerHTML += `
+                            <td rowspan="${rowspan}">${makeBoldIfSelected(busNumber, origin, destination)}</td>
+                            <td rowspan="${rowspan}">${makeBoldIfSelected(busName, origin, destination)}</td>
+                        `;
+                    }
+
+                    row.innerHTML += `
                         <td>${makeBoldIfSelected(station.station, origin, destination)}</td>
                         <td>${makeBoldIfSelected(station.arrivalTime, origin, destination)}</td>
                         <td>${makeBoldIfSelected(station.departureTime, origin, destination)}</td>
                     `;
-                    table.appendChild(row);
+
+                    tbody.appendChild(row);
                 });
+
+                table.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th>Bus Number</th>
+                            <th>Bus Name</th>
+                            <th>Stop</th>
+                            <th>Arrival Time</th>
+                            <th>Departure Time</th>
+                        </tr>
+                    </thead>
+                `;
+                table.appendChild(tbody);
 
                 resultsContainer.appendChild(table);
             });
@@ -102,6 +136,8 @@ function displayResults(schedules, origin, destination) {
         resultsContainer.innerHTML = '<p>No bus found for the selected stops!</p>';
     }
 }
+
+
 
 function makeBoldIfSelected(value, origin, destination) {
     // Make the selected dropdown values bold

@@ -44,6 +44,22 @@ html {
 	scroll-behavior: smooth;
 }
 
+/* Adjust the styles for the logo and logo-text */
+
+.logo-text {
+    display: inline-block;
+    vertical-align: middle; /* Adjust as needed */
+	margin-top: 5px;
+    margin-left: 10px; /* Adjust the spacing between logo and text */
+}
+
+
+/* If needed, you can adjust the height of the logo and logo-text */
+.logo img {
+    height: 36px; /* Adjust as needed */
+}
+
+
 body {
 	color: #666666;
 	font-size: 14px;
@@ -51,10 +67,12 @@ body {
 	line-height: 1.80857;
 	font-weight: normal;
 	overflow-x: hidden;
+	background-image: url('../images/391735418_6498295986955036_311284559108911869_n.jpg');
+	background-size: contain;
 }
 
 a {
-	color: #1f1f1f;
+	color: #ffffff;
 	text-decoration: none !important;
 	outline: none !important;
 	-webkit-transition: all .3s ease-in-out;
@@ -111,6 +129,25 @@ h6 {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+span a {
+	color: #0022ff;
+	text-decoration: none!important;
+	opacity: 1
+}
+
+.disclaimer {
+	color: white;
+	align-items: center;
+	text-align: center;
+	font-size: smaller;
+	justify-content: center;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+
 
 h1 a,
 h2 a,
@@ -455,6 +492,8 @@ a.readmore_bt {
 
 .logo_section {
 	text-align: center;
+	display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -464,11 +503,31 @@ a.readmore_bt {
 nav.main-menu {
 	float: right;
 	margin-left: 0;
+	margin-bottom: 35px;
+}
+
+.menu-area {
+    display: flex;
+    align-items: center;
 }
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
 	color: #ffc221;
+}
+
+.main-menu li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+    font-weight: bold;
+}
+
+.main-menu a:hover {
+    color: #ff6600; /* Adjust the hover color as needed */
 }
 
 .menu-area-main li.active a {
@@ -1046,6 +1105,10 @@ nav.main-menu {
 .main-menu ul>li {
 	display: inline-block;
 	position: relative;
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 .main-menu ul>li a {
@@ -1163,8 +1226,6 @@ nav.main-menu {
 	right: 0;
 	padding: 15px 0px;
 }
-
-.sub-full {}
 
 .simple-down {
 	padding: 15px;
@@ -1691,7 +1752,11 @@ border-radius: 100%;
 font-size: 18px;
 }
 .header {
-	background: #747474;
+	padding: 10px;
+	background: #ffffff;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo a {
@@ -1700,6 +1765,8 @@ font-size: 18px;
 	text-transform: uppercase;
 	color: #fff;
 	line-height: 40px;
+	display: inline-block;
+    vertical-align: middle; /* Adjust as needed */
 }
 
 .relative {
@@ -2130,16 +2197,19 @@ ul.lik li a:hover {
 }
 
 .copyright {
-	background-color: #ffc221;
+	background-color: #000000;
 	padding: 20px 0px;
-	margin-top: 70px;
+	margin-top: 5px;
 }
 
 .copyright p {
-	color: #023023;
+	color: #ffffff;
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
+}
+.copyright a {
+	color: #1b0094;
 }
 
 .copyright a:hover {

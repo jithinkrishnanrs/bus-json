@@ -1,5 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const jsonFiles = ['json/attingal.json', 'json/ernakulam.json', 'json/pathanamthitta.json']; // Add your file paths here
+    const jsonFiles = [
+        'json/alappuzha.json',
+        'json/attingal.json',
+        'json/ernakulam.json',
+        'json/idukki.json',
+        'json/kannur.json',
+        'json/kottayam.json',
+        'json/kozhikkode.json',
+        'json/malapuram.json',
+        'json/muvattupuzha.json',
+        'json/palakkad-1.json',
+        'json/palakkad-2.json',
+        'json/pathanamthitta.json',
+        'json/vadakara.json',
+        'json/wayanad.json'
+      ];
 
     // Fetch data from each JSON file
     Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json())))
@@ -25,7 +40,7 @@ function initializeSearchableDropdown(jsonDataArray, dropdownId) {
     dropdown.select2({
         data: uniqueStations.map(station => ({ id: station, text: station })),
         width: '100%', // Adjust the width as needed
-        placeholder: `Search ${dropdownId.charAt(0).toUpperCase() + dropdownId.slice(1)} Stop...`
+        placeholder: `Search Your ${dropdownId.charAt(0).toUpperCase() + dropdownId.slice(1)} Stop`
     });
 }
 

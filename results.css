@@ -12,32 +12,6 @@ body {
     padding: 10px;
 }
 
-#results-container {
-    margin: 20px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border-radius: 8px;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #3498db;
-    color: #fff;
-}
 
 caption {
     font-size: 1.2em;
@@ -45,14 +19,6 @@ caption {
     margin-bottom: 10px;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-th,
-td {
-    width: 33.33%;
-}
 
 strong {
     font-weight: bold;
@@ -69,4 +35,55 @@ strong {
     table {
         font-size: 14px; /* Adjusted font size for smaller screens */
     }
+}
+
+
+/* Add this to your CSS file */
+.schedule-table {
+    width: 100%; /* Set the table width to 100% */
+    table-layout: fixed; /* Fix the layout so that all columns have the same width */
+}
+
+.schedule-table th, .schedule-table td {
+    width: 25%; /* Set the width of each column (adjust as needed) */
+    text-align: center; /* Center-align the content */
+    padding: 10px; /* Add some padding for better readability */
+    border: 1px solid #ddd; /* Add borders between cells */
+}
+
+
+/* Style for the results container */
+#results-container {
+    margin: 20px auto;
+    max-width: 800px; /* Set a maximum width for the container */
+    background-color: #f5f5f5; /* Set the background color */
+    padding: 20px; /* Add padding for better readability */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Style for the tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add space between tables */
+}
+
+/* Style for table headers */
+th {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px; /* Padding for header cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for table cells */
+td {
+    border: 1px solid #ddd; /* Border color and style for cells */
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for alternate row background color */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
 }
