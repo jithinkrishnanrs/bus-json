@@ -46,9 +46,7 @@ function getUniqueStations(jsonDataArray) {
     return Array.from(allStations);
 }
 
-function showResults(event) {
-    event.preventDefault(); // Prevent form submission
-
+function showResults() {
     const originDropdown = $('#origin');
     const destinationDropdown = $('#destination');
     const originValue = originDropdown.val();
