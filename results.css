@@ -1,82 +1,52 @@
-/* Add this CSS to style the result table containers and results container */
-.result-table-container {
-    margin-bottom: 20px; /* Add some space between tables */
-}
-
-#results-container {
-    max-height: calc(100vh - 100px); /* Adjust the 100px based on your header and footer heights */
-    overflow-y: auto; /* Add vertical scroll if content exceeds the maximum height */
-}
-
-/* Responsive Styles for Tables */
-@media screen and (max-width: 767px) {
-    .result-table-container {
-        margin-bottom: 10px; /* Reduce space between tables on smaller screens */
-    }
-
-    #results-container {
-        max-height: none; /* Remove max-height on smaller screens to allow natural scrolling */
-    }
-
-    table {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    th, td {
-        padding: 10px;
-        text-align: left;
-    }
-}
-
-
-
-/* Add this to your CSS file */
-.schedule-table {
-    width: 100%; /* Set the table width to 100% */
-    table-layout: fixed; /* Fix the layout so that all columns have the same width */
-}
-
-.schedule-table th, .schedule-table td {
-    width: 25%; /* Set the width of each column (adjust as needed) */
-    text-align: center; /* Center-align the content */
-    padding: 10px; /* Add some padding for better readability */
-    border: 1px solid #ddd; /* Add borders between cells */
-}
-
-
-/* Style for the results container */
-#results-container {
-    margin: 20px auto;
-    max-width: 800px; /* Set a maximum width for the container */
-    background-color: #f5f5f5; /* Set the background color */
-    padding: 20px; /* Add padding for better readability */
-    border-radius: 10px; /* Optional: Add rounded corners */
-}
-
-/* Style for the tables */
+/* Common styles for table headers and cells */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px; /* Add space between tables */
 }
 
-/* Style for table headers */
-th {
-    background-color: #007bff; /* Header background color */
-    color: #fff; /* Header text color */
-    padding: 10px; /* Padding for header cells */
-    text-align: left; /* Align text to the left */
-}
-
-/* Style for table cells */
-td {
-    border: 1px solid #ddd; /* Border color and style for cells */
-    padding: 10px; /* Padding for cells */
-    text-align: left; /* Align text to the left */
+th, td {
+    padding: 12px; /* Increase padding for better touch interaction */
+    text-align: left;
 }
 
 /* Style for alternate row background color */
 tr:nth-child(even) {
     background-color: #f9f9f9; /* Alternate row background color */
+}
+
+/* Style for the schedule table */
+.schedule-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 767px) {
+    th, td {
+        padding: 8px; /* Decrease padding for smaller screens */
+    }
+
+    /* Hide some columns on smaller screens or adjust as needed */
+    .hide-on-mobile {
+        display: none;
+    }
+
+    /* Make the schedule table more responsive */
+    .schedule-table th, .schedule-table td {
+        width: 100%; /* Full width for each column on smaller screens */
+        text-align: left;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .schedule-table th {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .schedule-table td {
+        border: none; /* Remove borders between cells */
+        border-bottom: 1px solid #ddd; /* Add border only at the bottom of each row */
+    }
 }
