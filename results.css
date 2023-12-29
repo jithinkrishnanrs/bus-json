@@ -6,16 +6,14 @@ body {
 }
 
 #header {
-    text-align: center; /* Center align the text within #header */
+    text-align: center;
     background-color: #3498db;
     color: #fff;
     padding: 10px;
 }
 
 #results-container {
-    margin: 450px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 20px;
 }
 
 table {
@@ -32,7 +30,7 @@ table, th, td {
 }
 
 th, td {
-    padding: 8px; /* Adjusted padding for a smaller table */
+    padding: 8px;
     text-align: left;
 }
 
@@ -47,18 +45,28 @@ caption {
     margin-bottom: 10px;
 }
 
-/* Add alternate row colors */
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/* Adjust the column widths */
 th,
 td {
-    width: 33.33%; /* Equal width for all columns */
+    width: 33.33%;
 }
 
-/* Make bold if selected */
 strong {
     font-weight: bold;
+}
+
+/* Media queries for responsiveness */
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    #results-container {
+        margin: 10px;
+    }
+
+    table {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
 }
