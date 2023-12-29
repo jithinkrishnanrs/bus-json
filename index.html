@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Include Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <style>
+        /* Add your loading animation styles here */
+        #loading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .loading-spinner {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Center the loading spinner */
+        .loading-overlay {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+    <title>Bus Schedule</title>
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div id="header">
+        <h1>Bus Schedule</h1>
+    </div>
+    <div id="filters">
+        <!-- Use a standard select element for non-JavaScript users -->
+        <select id="origin"></select>
+
+        <!-- Use a standard select element for non-JavaScript users -->
+        <select id="destination"></select>
+
+        <button onclick="showResults()">Show Results</button>
+    </div>
+    <div id="results-container"></div>
+
+    <!-- Include jQuery -->
+    <script src="jquery.min.js"></script>
+
+    <!-- Include Select2 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const jsonFiles = ['attingal.json', 'ernakulam.json']; // Add your file paths here
+
+            // Fetch data from each JSON file
+            Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json())))
+                .then(jsonDataArray => {
+                    // Populate searchable dropdowns with unique and sorted stations
+                    initializeSearchableDropdown(jsonDataArray, 'origin');
+                    initializeSearchableDropdown(jsonDataArray, 'destination');
+                })
+                .catch(error => console.error('Error fetching JSON:', error));
+        });
+
+        function initializeSearchableDropdown(jsonDataArray, dropdownId) {
+            const dropdown = $(`#${dropdownId}`);
+
+            // Get unique and sorted stations
+            const uniqueStations = getUniqueStations(jsonDataArray);
+            uniqueStations.sort();
+
+            // Initialize Select2 with searchable options
+            dropdown.select2({
+                data: uniqueStations.map(station => ({ id: station, text: station })),
+                width: '100%', // Adjust the width as needed
+                placeholder: `Select ${dropdownId.charAt(0).toUpperCase() + dropdownId.slice(1)}...`
+            });
+        }
+
+        function showResults() {
+            const originDropdown = $('#origin');
+            const destinationDropdown = $('#destination');
+            const originValue = originDropdown.val();
+            const destinationValue = destinationDropdown.val();
+
+            // Show loading overlay or spinner
+            showLoading();
+
+            // Use setTimeout to simulate a delay of 100 milliseconds
+            setTimeout(() => {
+                // Redirect to results.html with query parameters
+                window.location.href = `results.html?origin=${originValue}&destination=${destinationValue}`;
+            }, 100); // 100 milliseconds
+        }
+
+        function showLoading() {
+            document.getElementById('loading-overlay').style.display = 'flex';
+        }
+    </script>
+
+    <!-- Your custom script.js file should be loaded last -->
+    <script src="script.js"></script>
+</body>
+</html>
