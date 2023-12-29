@@ -73,7 +73,7 @@ function showResults() {
     // Use setTimeout to simulate a delay of 100 milliseconds
     setTimeout(() => {
         // Redirect to results.html with query parameters
-        window.location.href = `results.html?origin=${originValue}&destination=${destinationValue}`;
+        window.location.href = `results_new.html?origin=${originValue}&destination=${destinationValue}`;
     }, 100); // 100 milliseconds
 }
 

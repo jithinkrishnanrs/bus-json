@@ -1,41 +1,24 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ecf0f1;
+/* Add this CSS to style the result table containers and results container */
+.result-table-container {
+    margin-bottom: 20px; /* Add some space between tables */
 }
 
-#header {
-    text-align: center;
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px;
+#results-container {
+    max-height: calc(100vh - 100px); /* Adjust the 100px based on your header and footer heights */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the maximum height */
 }
 
+/* Responsive Styles for Tables on Smaller Screens */
+@media screen and (max-width: 767px) {
+    .result-table-container {
+        margin-bottom: 10px; /* Reduce space between tables on smaller screens */
+    }
 
-caption {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-
-strong {
-    font-weight: bold;
-}
-
-/* Media queries for responsiveness */
-
-/* Small screens */
-@media only screen and (max-width: 600px) {
     #results-container {
-        margin: 10px;
-    }
-
-    table {
-        font-size: 14px; /* Adjusted font size for smaller screens */
+        max-height: none; /* Remove max-height on smaller screens to allow natural scrolling */
     }
 }
+
 
 
 /* Add this to your CSS file */

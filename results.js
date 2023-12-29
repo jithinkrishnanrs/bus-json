@@ -92,6 +92,9 @@ function displayResults(schedules, origin, destination) {
             const busName = schedule.busName || '';
 
             schedule.tripDetails.forEach(trip => {
+                const container = document.createElement('div'); // Create a container for each table
+                container.classList.add('result-table-container');
+
                 const table = document.createElement('table');
                 const tbody = document.createElement('tbody');
 
@@ -129,13 +132,15 @@ function displayResults(schedules, origin, destination) {
                 `;
                 table.appendChild(tbody);
 
-                resultsContainer.appendChild(table);
+                container.appendChild(table);
+                resultsContainer.appendChild(container);
             });
         });
     } else {
         resultsContainer.innerHTML = '<p>No bus found for the selected stops!</p>';
     }
 }
+
 
 
 
