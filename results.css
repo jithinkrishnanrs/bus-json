@@ -8,7 +8,7 @@
     overflow-y: auto; /* Add vertical scroll if content exceeds the maximum height */
 }
 
-/* Responsive Styles for Tables on Smaller Screens */
+/* Responsive Styles for Tables */
 @media screen and (max-width: 767px) {
     .result-table-container {
         margin-bottom: 10px; /* Reduce space between tables on smaller screens */
@@ -16,6 +16,16 @@
 
     #results-container {
         max-height: none; /* Remove max-height on smaller screens to allow natural scrolling */
+    }
+
+    table {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
     }
 }
 
