@@ -141,9 +141,6 @@ function displayResults(schedules, origin, destination) {
     }
 }
 
-
-
-
 function makeBoldIfSelected(value, origin, destination) {
     // Make the selected dropdown values bold
     if (value === origin || value === destination) {
