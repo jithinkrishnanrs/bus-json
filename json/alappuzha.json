@@ -5232,7 +5232,7 @@
       "Vehicle Number": "KL 31 A 7196",
       "route": [
         "KAYAMKULAM PRIVATE BUS STAND",
-        "ADOOR"
+        "CENTRAL ADOOR"
       ],
       "schedule": [
         {
@@ -5244,7 +5244,7 @@
               "departureTime": "07:33 am"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "08:41 am",
               "departureTime": "08:41 am"
             }
@@ -5254,7 +5254,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "09:12 am",
               "departureTime": "09:12 am"
             },
@@ -5274,7 +5274,7 @@
               "departureTime": "11:55 am"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "01:03 pm",
               "departureTime": "01:03 pm"
             }
@@ -5284,7 +5284,7 @@
           "trip": 4,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "01:33 pm",
               "departureTime": "01:33 pm"
             },
@@ -5304,7 +5304,7 @@
               "departureTime": "02:55 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "04:03 pm",
               "departureTime": "04:03 pm"
             }
@@ -5314,7 +5314,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "04:15 pm",
               "departureTime": "04:15 pm"
             },
@@ -5334,7 +5334,7 @@
               "departureTime": "05:55 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "07:03 pm",
               "departureTime": "07:03 pm"
             }
@@ -5344,7 +5344,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "07:58 pm",
               "departureTime": "07:58 pm"
             },
@@ -10190,7 +10190,7 @@
         "KANAKAKUNNU",
         "KAYAMKULAM PRIVATE BUS STAND",
         "CHARUMOODU",
-        "ADOOR"
+        "CENTRAL ADOOR"
       ],
       "schedule": [
         {
@@ -10212,7 +10212,7 @@
               "departureTime": "06:35 am"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "07:13 am",
               "departureTime": "07:13 am"
             }
@@ -10222,7 +10222,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "08:02 am",
               "departureTime": "08:02 am"
             },
@@ -10252,7 +10252,7 @@
               "departureTime": "10:36 am"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "11:14 am",
               "departureTime": "11:14 am"
             }
@@ -10262,7 +10262,7 @@
           "trip": 4,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "11:28 am",
               "departureTime": "11:28 am"
             },
@@ -10292,7 +10292,7 @@
               "departureTime": "01:27 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "02:05 pm",
               "departureTime": "02:05 pm"
             }
@@ -10302,7 +10302,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "02:06 pm",
               "departureTime": "02:06 pm"
             },
@@ -10332,7 +10332,7 @@
               "departureTime": "04:23 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "05:01 pm",
               "departureTime": "05:01 pm"
             }
@@ -10342,7 +10342,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "05:43 pm",
               "departureTime": "05:43 pm"
             },
@@ -12201,7 +12201,7 @@
       "route": [
         "KAYAMKULAM PRIVATE BUS STAND",
         "CHARUMOODU",
-        "ADOOR"
+        "ADOOR CENTRAL"
       ],
       "schedule": [
         {
@@ -12218,7 +12218,7 @@
               "departureTime": "07:41 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:19 am",
               "departureTime": "08:19 am"
             }
@@ -12228,7 +12228,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:34 am",
               "departureTime": "08:34 am"
             },
@@ -12258,7 +12258,7 @@
               "departureTime": "10:20 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "10:58 am",
               "departureTime": "10:58 am"
             }
@@ -12268,7 +12268,7 @@
           "trip": 4,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "11:12 am",
               "departureTime": "11:12 am"
             },
@@ -12298,7 +12298,7 @@
               "departureTime": "01:34 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "02:12 pm",
               "departureTime": "02:12 pm"
             }
@@ -12308,7 +12308,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "03:08 pm",
               "departureTime": "03:08 pm"
             },
@@ -12338,7 +12338,7 @@
               "departureTime": "05:01 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "05:39 pm",
               "departureTime": "05:39 pm"
             }
@@ -12348,7 +12348,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "05:51 pm",
               "departureTime": "05:51 pm"
             },
@@ -12378,7 +12378,7 @@
               "departureTime": "07:41 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:19 pm",
               "departureTime": "08:19 pm"
             }
@@ -12388,7 +12388,7 @@
           "trip": 10,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:30 pm",
               "departureTime": "08:30 pm"
             },
@@ -12671,7 +12671,7 @@
     {
       "Vehicle Number": "KL 03 L 2032",
       "route": [
-        "ADOOR",
+        "ADOOR CENTRAL",
         "CHARUMOODU",
         "RAILWAYBUS STAND",
         "KAYAMKULAM PRIVATE BUS STAND"
@@ -12681,7 +12681,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "06:06 am",
               "departureTime": "06:06 am"
             },
@@ -12726,7 +12726,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "09:13 am",
               "departureTime": "09:13 am"
             },
@@ -12771,7 +12771,7 @@
           "trip": 5,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "12:14 pm",
               "departureTime": "12:14 pm"
             },
@@ -12816,7 +12816,7 @@
           "trip": 7,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "03:14 pm",
               "departureTime": "03:14 pm"
             },
@@ -12862,7 +12862,7 @@
     {
       "Vehicle Number": "KL 03 M 1014",
       "route": [
-        "ADOOR",
+        "ADOOR CENTRAL",
         "CHARUMOODU",
         "KAYAMKULAM PRIVATE BUS STAND"
       ],
@@ -12871,7 +12871,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "05:05 am",
               "departureTime": "05:05 am"
             },
@@ -12906,7 +12906,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:15 am",
               "departureTime": "08:15 am"
             },
@@ -12941,7 +12941,7 @@
           "trip": 5,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "12:12 pm",
               "departureTime": "12:12 pm"
             },
@@ -12976,7 +12976,7 @@
           "trip": 7,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "03:47 pm",
               "departureTime": "03:47 pm"
             },
@@ -13011,7 +13011,7 @@
           "trip": 9,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "06:44 pm",
               "departureTime": "06:44 pm"
             },
@@ -15551,7 +15551,7 @@
     {
       "Vehicle Number": "KL 31 3843",
       "route": [
-        "ADOOR",
+        "CENTRAL ADOOR",
         "ADOOR",
         "CHARUMOODU",
         "KAYAMKULAM PRIVATE BUS STAND"
@@ -15561,7 +15561,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "05:47 am",
               "departureTime": "05:47 am"
             },
@@ -15606,7 +15606,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "09:04 am",
               "departureTime": "09:04 am"
             },
@@ -15651,7 +15651,7 @@
           "trip": 5,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "11:59 am",
               "departureTime": "11:59 am"
             },
@@ -15696,7 +15696,7 @@
           "trip": 7,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "03:37 pm",
               "departureTime": "03:37 pm"
             },
@@ -15741,7 +15741,7 @@
           "trip": 9,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "07:36 pm",
               "departureTime": "07:36 pm"
             },
@@ -15782,8 +15782,8 @@
     {
       "Vehicle Number": "KL 31 B 0023",
       "route": [
-        "ADOOR",
-        "ADOOR",
+        "CENTRAL ADOOR",
+        "ADOOR PVT STAND",
         "CHARUMOODU",
         "KAYAMKULAM PRIVATE BUS STAND"
       ],
@@ -15792,12 +15792,12 @@
           "trip": 1,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "06:17 am",
               "departureTime": "06:17 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "06:20 am",
               "departureTime": "06:20 am"
             },
@@ -15827,7 +15827,7 @@
               "departureTime": "08:54 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "09:29 am",
               "departureTime": "09:29 am"
             }
@@ -15837,12 +15837,12 @@
           "trip": 3,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "10:00 am",
               "departureTime": "10:00 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "10:03 am",
               "departureTime": "10:03 am"
             },
@@ -15872,7 +15872,7 @@
               "departureTime": "01:30 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "02:05 pm",
               "departureTime": "02:05 pm"
             }
@@ -15882,12 +15882,12 @@
           "trip": 5,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "02:27 pm",
               "departureTime": "02:27 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "02:30 pm",
               "departureTime": "02:30 pm"
             },
@@ -15917,7 +15917,7 @@
               "departureTime": "04:37 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "05:12 pm",
               "departureTime": "05:12 pm"
             }
@@ -15927,12 +15927,12 @@
           "trip": 7,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "06:04 pm",
               "departureTime": "06:04 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "06:07 pm",
               "departureTime": "06:07 pm"
             },
@@ -15962,7 +15962,7 @@
               "departureTime": "08:20 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "08:55 pm",
               "departureTime": "08:55 pm"
             }
@@ -15973,7 +15973,7 @@
     {
       "Vehicle Number": "KL 31 B 1286",
       "route": [
-        "ADOOR",
+        "CENTRAL ADOOR",
         "CHARUMOODU",
         "KAYAMKULAM PRIVATE BUS STAND"
       ],
@@ -15982,7 +15982,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "07:02 am",
               "departureTime": "07:02 am"
             },
@@ -16017,7 +16017,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "10:48 am",
               "departureTime": "10:48 am"
             },
@@ -16052,7 +16052,7 @@
           "trip": 5,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "01:40 pm",
               "departureTime": "01:40 pm"
             },
@@ -16087,7 +16087,7 @@
           "trip": 7,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "05:05 pm",
               "departureTime": "05:05 pm"
             },
@@ -42960,7 +42960,7 @@
       "route": [
         "KAYAMKULAM PRIVATE BUS STAND",
         "CHARUMOODU",
-        "ADOOR"
+        "ADOOR CENTRAL"
       ],
       "schedule": [
         {
@@ -42977,7 +42977,7 @@
               "departureTime": "05:48 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "06:26 am",
               "departureTime": "06:26 am"
             }
@@ -42987,7 +42987,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "07:31 am",
               "departureTime": "07:31 am"
             },
@@ -43017,7 +43017,7 @@
               "departureTime": "09:45 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "10:23 am",
               "departureTime": "10:23 am"
             }
@@ -43027,7 +43027,7 @@
           "trip": 4,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "11:07 am",
               "departureTime": "11:07 am"
             },
@@ -43057,7 +43057,7 @@
               "departureTime": "01:30 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "02:08 pm",
               "departureTime": "02:08 pm"
             }
@@ -43067,7 +43067,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "02:28 pm",
               "departureTime": "02:28 pm"
             },
@@ -43097,7 +43097,7 @@
               "departureTime": "05:16 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "05:54 pm",
               "departureTime": "05:54 pm"
             }
@@ -43107,7 +43107,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "06:04 pm",
               "departureTime": "06:04 pm"
             },
@@ -43137,7 +43137,7 @@
               "departureTime": "08:20 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:58 pm",
               "departureTime": "08:58 pm"
             }
@@ -43147,7 +43147,7 @@
           "trip": 10,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "09:15 pm",
               "departureTime": "09:15 pm"
             },
@@ -46327,8 +46327,8 @@
         "KAYAMKULAM PRIVATE BUS STAND",
         "RAILWAYTERMINAL BUS STAND KYLM",
         "CHARUMOODU",
-        "ADOOR",
-        "ADOOR"
+        "ADOOR PVT STAND",
+        "ADOOR CENTRAL"
       ],
       "schedule": [
         {
@@ -46350,12 +46350,12 @@
               "departureTime": "07:18 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR PVT STAND",
               "arrivalTime": "07:53 am",
               "departureTime": "07:53 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "07:58 am",
               "departureTime": "07:58 am"
             }
@@ -46365,7 +46365,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:16 am",
               "departureTime": "08:16 am"
             },
@@ -46405,7 +46405,7 @@
               "departureTime": "10:21 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "11:01 am",
               "departureTime": "11:01 am"
             }
@@ -46415,7 +46415,7 @@
           "trip": 4,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "11:51 am",
               "departureTime": "11:51 am"
             },
@@ -46455,7 +46455,7 @@
               "departureTime": "02:07 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "02:47 pm",
               "departureTime": "02:47 pm"
             }
@@ -46465,7 +46465,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "02:52 pm",
               "departureTime": "02:52 pm"
             },
@@ -46505,7 +46505,7 @@
               "departureTime": "05:03 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "05:43 pm",
               "departureTime": "05:43 pm"
             }
@@ -46515,7 +46515,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "06:46 pm",
               "departureTime": "06:46 pm"
             },
@@ -81221,7 +81221,7 @@
       "route": [
         "KAYAMKULAM PRIVATE BUS STAND",
         "NOORNAD",
-        "ADOOR"
+        "CENTRAL ADOOR"
       ],
       "schedule": [
         {
@@ -81238,7 +81238,7 @@
               "departureTime": "08:23 am"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "09:01 am",
               "departureTime": "09:01 am"
             }
@@ -81248,7 +81248,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "09:28 am",
               "departureTime": "09:28 am"
             },
@@ -81278,7 +81278,7 @@
               "departureTime": "11:42 am"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "12:20 pm",
               "departureTime": "12:20 pm"
             }
@@ -81288,7 +81288,7 @@
           "trip": 4,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "01:10 pm",
               "departureTime": "01:10 pm"
             },
@@ -81318,7 +81318,7 @@
               "departureTime": "03:02 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "03:40 pm",
               "departureTime": "03:40 pm"
             }
@@ -81328,7 +81328,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "03:56 pm",
               "departureTime": "03:56 pm"
             },
@@ -81358,7 +81358,7 @@
               "departureTime": "06:00 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "06:38 pm",
               "departureTime": "06:38 pm"
             }
@@ -81368,7 +81368,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "CENTRAL ADOOR",
               "arrivalTime": "07:02 pm",
               "departureTime": "07:02 pm"
             },
@@ -81775,7 +81775,7 @@
       "route": [
         "KAYAMKULAM PRIVATE BUS STAND",
         "CHARUMOODU",
-        "ADOOR"
+        "ADOOR CENTRAL"
       ],
       "schedule": [
         {
@@ -81792,7 +81792,7 @@
               "departureTime": "06:05 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "06:43 am",
               "departureTime": "06:43 am"
             }
@@ -81802,7 +81802,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "06:47 am",
               "departureTime": "06:47 am"
             },
@@ -81832,7 +81832,7 @@
               "departureTime": "08:33 am"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "09:11 am",
               "departureTime": "09:11 am"
             }
@@ -81842,7 +81842,7 @@
           "trip": 4,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "09:20 am",
               "departureTime": "09:20 am"
             },
@@ -81872,7 +81872,7 @@
               "departureTime": "12:00 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "12:38 pm",
               "departureTime": "12:38 pm"
             }
@@ -81882,7 +81882,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "01:22 pm",
               "departureTime": "01:22 pm"
             },
@@ -81912,7 +81912,7 @@
               "departureTime": "03:20 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "03:58 pm",
               "departureTime": "03:58 pm"
             }
@@ -81922,7 +81922,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "04:31 pm",
               "departureTime": "04:31 pm"
             },
@@ -81952,7 +81952,7 @@
               "departureTime": "06:43 pm"
             },
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "07:21 pm",
               "departureTime": "07:21 pm"
             }
@@ -81962,7 +81962,7 @@
           "trip": 10,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:40 pm",
               "departureTime": "08:40 pm"
             },
@@ -89255,7 +89255,7 @@
     {
       "Vehicle Number": "KL 37 6549",
       "route": [
-        "ADOOR",
+        "ADOOR CENTRAL",
         "CHARUMOODU",
         "KAYAMKULAM PRIVATE BUS STAND"
       ],
@@ -89264,7 +89264,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "05:52 am",
               "departureTime": "05:52 am"
             },
@@ -89299,7 +89299,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "08:44 am",
               "departureTime": "08:44 am"
             },
@@ -89334,7 +89334,7 @@
           "trip": 5,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "11:33 am",
               "departureTime": "11:33 am"
             },
@@ -89369,7 +89369,7 @@
           "trip": 7,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "04:09 pm",
               "departureTime": "04:09 pm"
             },
@@ -89404,7 +89404,7 @@
           "trip": 9,
           "stations": [
             {
-              "station": "ADOOR",
+              "station": "ADOOR CENTRAL",
               "arrivalTime": "07:15 pm",
               "departureTime": "07:15 pm"
             },

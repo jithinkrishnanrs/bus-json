@@ -3022,7 +3022,7 @@
       "route": [
         "VARKALA",
         "PARIPALLY",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR",
         "KARETTE"
       ],
@@ -3041,7 +3041,7 @@
               "departureTime": "06:20 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:40 am",
               "departureTime": "06:40 am"
             },
@@ -3071,7 +3071,7 @@
               "departureTime": "08:35 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:05 am",
               "departureTime": "09:05 am"
             },
@@ -3101,7 +3101,7 @@
               "departureTime": "11:00 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:20 am",
               "departureTime": "11:20 am"
             },
@@ -3131,7 +3131,7 @@
               "departureTime": "02:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:50 pm",
               "departureTime": "02:50 pm"
             },
@@ -3161,7 +3161,7 @@
               "departureTime": "05:10 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:30 pm",
               "departureTime": "05:30 pm"
             },
@@ -3191,7 +3191,7 @@
               "departureTime": "07:15 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:45 pm",
               "departureTime": "07:45 pm"
             },
@@ -4126,7 +4126,7 @@
       "route": [
         "KOTTIYAM KOLLAM",
         "PARIPALLY",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR",
         "KARETTE"
       ],
@@ -4145,7 +4145,7 @@
               "departureTime": "07:50 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:10 am",
               "departureTime": "08:10 am"
             },
@@ -4175,7 +4175,7 @@
               "departureTime": "09:25 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:35 am",
               "departureTime": "10:35 am"
             },
@@ -4205,7 +4205,7 @@
               "departureTime": "11:40 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:00 pm",
               "departureTime": "12:00 pm"
             },
@@ -4235,7 +4235,7 @@
               "departureTime": "01:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:35 pm",
               "departureTime": "01:35 pm"
             },
@@ -4265,7 +4265,7 @@
               "departureTime": "03:25 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:45 pm",
               "departureTime": "03:45 pm"
             },
@@ -4295,7 +4295,7 @@
               "departureTime": "04:50 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:20 pm",
               "departureTime": "05:20 pm"
             },
@@ -6530,7 +6530,7 @@
         "KOCHUPALAM PRIVATE BUS STAND",
         "PONGANADU",
         "KALLAMBALAM",
-        "PALLICKAL",
+        "PALLIKKAL",
         "EERATTIL"
       ],
       "schedule": [
@@ -6553,7 +6553,7 @@
               "departureTime": "05:55 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:20 am",
               "departureTime": "06:20 am"
             },
@@ -6573,7 +6573,7 @@
               "departureTime": "06:32 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:42 am",
               "departureTime": "06:42 am"
             },
@@ -6613,7 +6613,7 @@
               "departureTime": "09:24 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:49 am",
               "departureTime": "09:49 am"
             },
@@ -6633,7 +6633,7 @@
               "departureTime": "10:00 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:10 am",
               "departureTime": "10:10 am"
             },
@@ -6673,7 +6673,7 @@
               "departureTime": "12:07 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:32 pm",
               "departureTime": "12:32 pm"
             },
@@ -6693,7 +6693,7 @@
               "departureTime": "01:08 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:18 pm",
               "departureTime": "01:18 pm"
             },
@@ -6713,7 +6713,7 @@
               "departureTime": "02:10 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:35 pm",
               "departureTime": "02:35 pm"
             },
@@ -6733,7 +6733,7 @@
               "departureTime": "04:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:15 pm",
               "departureTime": "04:15 pm"
             },
@@ -6773,7 +6773,7 @@
               "departureTime": "06:10 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:35 pm",
               "departureTime": "06:35 pm"
             },
@@ -6793,7 +6793,7 @@
               "departureTime": "07:30 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:40 pm",
               "departureTime": "07:40 pm"
             },
@@ -7997,7 +7997,7 @@
         "VARKALA",
         "OONNINMOODU",
         "PARIPALLY",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR"
       ],
       "schedule": [
@@ -8025,7 +8025,7 @@
               "departureTime": "08:30 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:50 am",
               "departureTime": "08:50 am"
             },
@@ -8045,7 +8045,7 @@
               "departureTime": "09:40 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:10 am",
               "departureTime": "10:10 am"
             },
@@ -8095,7 +8095,7 @@
               "departureTime": "12:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:00 pm",
               "departureTime": "01:00 pm"
             },
@@ -8115,7 +8115,7 @@
               "departureTime": "02:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:35 pm",
               "departureTime": "02:35 pm"
             },
@@ -8165,7 +8165,7 @@
               "departureTime": "05:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:40 pm",
               "departureTime": "05:40 pm"
             },
@@ -8185,7 +8185,7 @@
               "departureTime": "06:50 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:20 pm",
               "departureTime": "07:20 pm"
             },
@@ -11002,7 +11002,7 @@
       "Vehicle Number": "KL 16 P 6600",
       "route": [
         "PARIPALLY",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR MARKET JUNCTION"
       ],
       "schedule": [
@@ -11015,7 +11015,7 @@
               "departureTime": "05:53 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:55 am",
               "departureTime": "05:55 am"
             },
@@ -11035,7 +11035,7 @@
               "departureTime": "06:42 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:12 am",
               "departureTime": "07:12 am"
             },
@@ -11055,7 +11055,7 @@
               "departureTime": "07:35 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:55 am",
               "departureTime": "07:55 am"
             },
@@ -11075,7 +11075,7 @@
               "departureTime": "08:30 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:00 am",
               "departureTime": "09:00 am"
             },
@@ -11095,7 +11095,7 @@
               "departureTime": "09:35 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:55 am",
               "departureTime": "09:55 am"
             },
@@ -11115,7 +11115,7 @@
               "departureTime": "11:00 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:30 am",
               "departureTime": "11:30 am"
             },
@@ -11135,7 +11135,7 @@
               "departureTime": "01:10 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:30 pm",
               "departureTime": "01:30 pm"
             },
@@ -11155,7 +11155,7 @@
               "departureTime": "02:15 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:45 pm",
               "departureTime": "02:45 pm"
             },
@@ -11175,7 +11175,7 @@
               "departureTime": "03:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:00 pm",
               "departureTime": "04:00 pm"
             },
@@ -11195,7 +11195,7 @@
               "departureTime": "04:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:10 pm",
               "departureTime": "05:10 pm"
             },
@@ -11215,7 +11215,7 @@
               "departureTime": "05:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:00 pm",
               "departureTime": "06:00 pm"
             },
@@ -11235,7 +11235,7 @@
               "departureTime": "07:15 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:45 pm",
               "departureTime": "07:45 pm"
             },
@@ -11255,7 +11255,7 @@
               "departureTime": "08:15 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:35 pm",
               "departureTime": "08:35 pm"
             },
@@ -11275,7 +11275,7 @@
               "departureTime": "09:15 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:45 pm",
               "departureTime": "09:45 pm"
             },
@@ -13102,7 +13102,7 @@
       "Vehicle Number": "KL 16 8640",
       "route": [
         "KOCHUPALAM",
-        "PALLICKAL"
+        "PALLIKKAL"
       ],
       "schedule": [
         {
@@ -13114,7 +13114,7 @@
               "departureTime": "06:05 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:35 am",
               "departureTime": "06:35 am"
             }
@@ -13124,7 +13124,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:00 am",
               "departureTime": "07:00 am"
             },
@@ -13144,7 +13144,7 @@
               "departureTime": "07:40 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:10 am",
               "departureTime": "08:10 am"
             }
@@ -13154,7 +13154,7 @@
           "trip": 4,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:37 am",
               "departureTime": "08:37 am"
             },
@@ -13174,7 +13174,7 @@
               "departureTime": "09:32 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:02 am",
               "departureTime": "10:02 am"
             }
@@ -13184,7 +13184,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:45 am",
               "departureTime": "10:45 am"
             },
@@ -13204,7 +13204,7 @@
               "departureTime": "11:25 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:55 am",
               "departureTime": "11:55 am"
             }
@@ -13214,7 +13214,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:20 pm",
               "departureTime": "12:20 pm"
             },
@@ -13234,7 +13234,7 @@
               "departureTime": "01:24 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:54 pm",
               "departureTime": "01:54 pm"
             }
@@ -13244,7 +13244,7 @@
           "trip": 10,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:30 pm",
               "departureTime": "02:30 pm"
             },
@@ -13264,7 +13264,7 @@
               "departureTime": "03:30 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:00 pm",
               "departureTime": "04:00 pm"
             }
@@ -13274,7 +13274,7 @@
           "trip": 12,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:25 pm",
               "departureTime": "04:25 pm"
             },
@@ -13294,7 +13294,7 @@
               "departureTime": "05:30 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:00 pm",
               "departureTime": "06:00 pm"
             }
@@ -13304,7 +13304,7 @@
           "trip": 14,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:05 pm",
               "departureTime": "06:05 pm"
             },
@@ -13324,7 +13324,7 @@
               "departureTime": "06:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:10 pm",
               "departureTime": "07:10 pm"
             }
@@ -13334,7 +13334,7 @@
           "trip": 16,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:40 pm",
               "departureTime": "07:40 pm"
             },
@@ -13354,7 +13354,7 @@
               "departureTime": "08:50 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:20 pm",
               "departureTime": "09:20 pm"
             }
@@ -13364,7 +13364,7 @@
           "trip": 18,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:25 pm",
               "departureTime": "09:25 pm"
             },
@@ -15171,7 +15171,7 @@
     {
       "Vehicle Number": "KL 16 C 2178",
       "route": [
-        "PALLICKAL",
+        "PALLIKKAL",
         "KALLAMBALAM",
         "PONGANADU",
         "KILIMANOOR",
@@ -15182,7 +15182,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:20 am",
               "departureTime": "06:20 am"
             },
@@ -15232,7 +15232,7 @@
               "departureTime": "08:50 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:25 am",
               "departureTime": "09:25 am"
             }
@@ -15242,7 +15242,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:33 am",
               "departureTime": "09:33 am"
             },
@@ -15292,7 +15292,7 @@
               "departureTime": "01:07 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:42 pm",
               "departureTime": "01:42 pm"
             }
@@ -15302,7 +15302,7 @@
           "trip": 5,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:50 pm",
               "departureTime": "01:50 pm"
             },
@@ -15352,7 +15352,7 @@
               "departureTime": "05:07 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:42 pm",
               "departureTime": "05:42 pm"
             }
@@ -15362,7 +15362,7 @@
           "trip": 7,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:12 pm",
               "departureTime": "06:12 pm"
             },
@@ -15412,7 +15412,7 @@
               "departureTime": "08:30 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:05 pm",
               "departureTime": "09:05 pm"
             }
@@ -18212,7 +18212,7 @@
       "Vehicle Number": "KL 03 N 547",
       "route": [
         "PARIPALLY",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR"
       ],
       "schedule": [
@@ -18225,7 +18225,7 @@
               "departureTime": "05:40 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:00 am",
               "departureTime": "06:00 am"
             },
@@ -18245,7 +18245,7 @@
               "departureTime": "06:32 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:02 am",
               "departureTime": "07:02 am"
             },
@@ -18265,7 +18265,7 @@
               "departureTime": "08:08 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:28 am",
               "departureTime": "08:28 am"
             },
@@ -18285,7 +18285,7 @@
               "departureTime": "09:10 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:40 am",
               "departureTime": "09:40 am"
             },
@@ -18305,7 +18305,7 @@
               "departureTime": "10:15 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:35 am",
               "departureTime": "10:35 am"
             },
@@ -18325,7 +18325,7 @@
               "departureTime": "11:20 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:50 am",
               "departureTime": "11:50 am"
             },
@@ -18345,7 +18345,7 @@
               "departureTime": "12:25 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:45 pm",
               "departureTime": "12:45 pm"
             },
@@ -18365,7 +18365,7 @@
               "departureTime": "01:22 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:52 pm",
               "departureTime": "01:52 pm"
             }
@@ -18375,7 +18375,7 @@
           "trip": 9,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:00 pm",
               "departureTime": "02:00 pm"
             },
@@ -18395,7 +18395,7 @@
               "departureTime": "02:50 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:20 pm",
               "departureTime": "03:20 pm"
             },
@@ -18415,7 +18415,7 @@
               "departureTime": "04:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:25 pm",
               "departureTime": "04:25 pm"
             },
@@ -18435,7 +18435,7 @@
               "departureTime": "05:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:35 pm",
               "departureTime": "05:35 pm"
             },
@@ -18455,7 +18455,7 @@
               "departureTime": "06:45 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:05 pm",
               "departureTime": "07:05 pm"
             },
@@ -18475,7 +18475,7 @@
               "departureTime": "07:45 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:15 pm",
               "departureTime": "08:15 pm"
             },
@@ -19827,7 +19827,7 @@
       "Vehicle Number": "KL 03 N 9547",
       "route": [
         "PARIPALLY",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR"
       ],
       "schedule": [
@@ -19840,7 +19840,7 @@
               "departureTime": "05:40 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:00 am",
               "departureTime": "06:00 am"
             },
@@ -19860,7 +19860,7 @@
               "departureTime": "06:32 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:02 am",
               "departureTime": "07:02 am"
             },
@@ -19880,7 +19880,7 @@
               "departureTime": "08:08 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:28 am",
               "departureTime": "08:28 am"
             },
@@ -19900,7 +19900,7 @@
               "departureTime": "09:10 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:40 am",
               "departureTime": "09:40 am"
             },
@@ -19920,7 +19920,7 @@
               "departureTime": "10:15 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:35 am",
               "departureTime": "10:35 am"
             },
@@ -19940,7 +19940,7 @@
               "departureTime": "11:20 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:50 am",
               "departureTime": "11:50 am"
             },
@@ -19960,7 +19960,7 @@
               "departureTime": "12:25 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:45 pm",
               "departureTime": "12:45 pm"
             },
@@ -19980,7 +19980,7 @@
               "departureTime": "01:22 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:52 pm",
               "departureTime": "01:52 pm"
             }
@@ -19990,7 +19990,7 @@
           "trip": 9,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:00 pm",
               "departureTime": "02:00 pm"
             },
@@ -20010,7 +20010,7 @@
               "departureTime": "02:50 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:20 pm",
               "departureTime": "03:20 pm"
             },
@@ -20030,7 +20030,7 @@
               "departureTime": "04:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:25 pm",
               "departureTime": "04:25 pm"
             },
@@ -20050,7 +20050,7 @@
               "departureTime": "05:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:35 pm",
               "departureTime": "05:35 pm"
             },
@@ -20070,7 +20070,7 @@
               "departureTime": "06:45 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:05 pm",
               "departureTime": "07:05 pm"
             },
@@ -20090,7 +20090,7 @@
               "departureTime": "07:45 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:15 pm",
               "departureTime": "08:15 pm"
             },
@@ -24065,7 +24065,7 @@
       "Vehicle Number": "KL 31 6395",
       "route": [
         "KALLAMBALAM",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR",
         "PUTHIYAKAVU TEMPLE"
       ],
@@ -24074,7 +24074,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:30 am",
               "departureTime": "05:30 am"
             },
@@ -24094,7 +24094,7 @@
               "departureTime": "06:00 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:25 am",
               "departureTime": "06:25 am"
             },
@@ -24124,7 +24124,7 @@
               "departureTime": "07:23 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:03 am",
               "departureTime": "08:03 am"
             },
@@ -24144,7 +24144,7 @@
               "departureTime": "08:32 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:57 am",
               "departureTime": "08:57 am"
             },
@@ -24174,7 +24174,7 @@
               "departureTime": "09:48 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:28 am",
               "departureTime": "10:28 am"
             },
@@ -24194,7 +24194,7 @@
               "departureTime": "10:58 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:23 am",
               "departureTime": "11:23 am"
             },
@@ -24224,7 +24224,7 @@
               "departureTime": "12:18 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:58 pm",
               "departureTime": "12:58 pm"
             },
@@ -24244,7 +24244,7 @@
               "departureTime": "01:45 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:10 pm",
               "departureTime": "02:10 pm"
             },
@@ -24274,7 +24274,7 @@
               "departureTime": "03:03 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:43 pm",
               "departureTime": "03:43 pm"
             },
@@ -24294,7 +24294,7 @@
               "departureTime": "04:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:05 pm",
               "departureTime": "05:05 pm"
             },
@@ -24324,7 +24324,7 @@
               "departureTime": "06:01 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:41 pm",
               "departureTime": "06:41 pm"
             }
@@ -26559,7 +26559,7 @@
         "RATHICKAL",
         "VARKALA",
         "PARIPALLY",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR",
         "KARETTE"
       ],
@@ -26583,7 +26583,7 @@
               "departureTime": "06:25 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:45 am",
               "departureTime": "06:45 am"
             },
@@ -26613,7 +26613,7 @@
               "departureTime": "08:15 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:45 am",
               "departureTime": "08:45 am"
             },
@@ -26653,7 +26653,7 @@
               "departureTime": "11:12 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:32 am",
               "departureTime": "11:32 am"
             },
@@ -26683,7 +26683,7 @@
               "departureTime": "12:50 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:20 pm",
               "departureTime": "01:20 pm"
             },
@@ -26723,7 +26723,7 @@
               "departureTime": "03:55 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:15 pm",
               "departureTime": "04:15 pm"
             },
@@ -26753,7 +26753,7 @@
               "departureTime": "05:18 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:48 pm",
               "departureTime": "05:48 pm"
             },
@@ -27724,7 +27724,7 @@
         "KOTTARAKARI",
         "ATTINGAL",
         "KALLAMBALAM",
-        "PALLICKAL",
+        "PALLIKKAL",
         "CHADAYAMANGALAM",
         "AYOOR",
         "ANCHAL",
@@ -27750,7 +27750,7 @@
               "departureTime": "05:50 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:15 am",
               "departureTime": "06:15 am"
             },
@@ -27800,7 +27800,7 @@
               "departureTime": "09:20 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:45 am",
               "departureTime": "09:45 am"
             },
@@ -27840,7 +27840,7 @@
               "departureTime": "01:35 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:00 pm",
               "departureTime": "02:00 pm"
             },
@@ -27890,7 +27890,7 @@
               "departureTime": "05:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:45 pm",
               "departureTime": "05:45 pm"
             },
@@ -27918,7 +27918,7 @@
       "route": [
         "KALLARA",
         "KILIMANOOR",
-        "PALLICKAL",
+        "PALLIKKAL",
         "PARIPPALLY JUNCTION"
       ],
       "schedule": [
@@ -27931,7 +27931,7 @@
               "departureTime": "06:06 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:36 am",
               "departureTime": "06:36 am"
             },
@@ -27951,7 +27951,7 @@
               "departureTime": "07:10 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:30 am",
               "departureTime": "07:30 am"
             },
@@ -27971,7 +27971,7 @@
               "departureTime": "08:45 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:15 am",
               "departureTime": "09:15 am"
             },
@@ -27991,7 +27991,7 @@
               "departureTime": "10:02 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:22 am",
               "departureTime": "10:22 am"
             },
@@ -28021,7 +28021,7 @@
               "departureTime": "12:02 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:32 pm",
               "departureTime": "12:32 pm"
             },
@@ -28041,7 +28041,7 @@
               "departureTime": "01:17 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:37 pm",
               "departureTime": "01:37 pm"
             },
@@ -28071,7 +28071,7 @@
               "departureTime": "04:09 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:39 pm",
               "departureTime": "04:39 pm"
             },
@@ -28091,7 +28091,7 @@
               "departureTime": "05:25 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:45 pm",
               "departureTime": "05:45 pm"
             },
@@ -37126,7 +37126,7 @@
         "ANCHAL",
         "AYOOR",
         "CHADAYAMANGALAM",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KALLAMBALAM",
         "ATTINGAL",
         "KOTTARAKARI"
@@ -37156,7 +37156,7 @@
               "departureTime": "08:00 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:25 am",
               "departureTime": "08:25 am"
             },
@@ -37196,7 +37196,7 @@
               "departureTime": "11:50 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:15 pm",
               "departureTime": "12:15 pm"
             },
@@ -37246,7 +37246,7 @@
               "departureTime": "03:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:05 pm",
               "departureTime": "04:05 pm"
             },
@@ -37286,7 +37286,7 @@
               "departureTime": "06:30 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:55 pm",
               "departureTime": "06:55 pm"
             },
@@ -38015,7 +38015,7 @@
       "route": [
         "KULAMUTTOM",
         "KALLAMBALAM",
-        "PALLICKAL",
+        "PALLIKKAL",
         "CHADAYAMANGALAM",
         "AYOOR"
       ],
@@ -38024,7 +38024,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:00 am",
               "departureTime": "06:00 am"
             },
@@ -38054,7 +38054,7 @@
               "departureTime": "07:35 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:00 am",
               "departureTime": "08:00 am"
             },
@@ -38084,7 +38084,7 @@
               "departureTime": "09:30 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:00 am",
               "departureTime": "10:00 am"
             },
@@ -38114,7 +38114,7 @@
               "departureTime": "11:25 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:50 am",
               "departureTime": "11:50 am"
             },
@@ -38144,7 +38144,7 @@
               "departureTime": "12:58 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:28 pm",
               "departureTime": "01:28 pm"
             },
@@ -38174,7 +38174,7 @@
               "departureTime": "03:45 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:10 pm",
               "departureTime": "04:10 pm"
             },
@@ -38204,7 +38204,7 @@
               "departureTime": "05:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:35 pm",
               "departureTime": "05:35 pm"
             },
@@ -38234,7 +38234,7 @@
               "departureTime": "06:55 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:20 pm",
               "departureTime": "07:20 pm"
             },
@@ -38264,7 +38264,7 @@
               "departureTime": "08:25 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:55 pm",
               "departureTime": "08:55 pm"
             }
@@ -41014,7 +41014,7 @@
         "PUNALUR",
         "ANCHAL",
         "AYOOR",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KALLAMBALAM",
         "ATTINGAL",
         "KOTTARAKARI"
@@ -41039,7 +41039,7 @@
               "departureTime": "07:32 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:07 am",
               "departureTime": "08:07 am"
             },
@@ -41079,7 +41079,7 @@
               "departureTime": "10:00 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:25 am",
               "departureTime": "10:25 am"
             },
@@ -41119,7 +41119,7 @@
               "departureTime": "03:13 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:48 pm",
               "departureTime": "03:48 pm"
             },
@@ -41159,7 +41159,7 @@
               "departureTime": "05:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:05 pm",
               "departureTime": "06:05 pm"
             },
@@ -41188,7 +41188,7 @@
         "KODUVAZHANNOOR",
         "KARETTE",
         "KILIMANOOR",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KOTTIYAM",
         "KOLLAM"
       ],
@@ -41212,7 +41212,7 @@
               "departureTime": "05:55 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:25 am",
               "departureTime": "06:25 am"
             },
@@ -41242,7 +41242,7 @@
               "departureTime": "09:15 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:15 am",
               "departureTime": "10:15 am"
             },
@@ -41282,7 +41282,7 @@
               "departureTime": "12:25 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:55 pm",
               "departureTime": "12:55 pm"
             },
@@ -41312,7 +41312,7 @@
               "departureTime": "03:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:40 pm",
               "departureTime": "04:40 pm"
             },
@@ -42138,7 +42138,7 @@
         "CHIRAYINKEEZHU",
         "ATTINGAL",
         "KILIMANOOR",
-        "PALLICKAL"
+        "PALLIKKAL"
       ],
       "schedule": [
         {
@@ -42160,7 +42160,7 @@
               "departureTime": "07:20 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:50 am",
               "departureTime": "07:50 am"
             }
@@ -42170,7 +42170,7 @@
           "trip": 2,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:10 am",
               "departureTime": "08:10 am"
             },
@@ -42230,7 +42230,7 @@
               "departureTime": "12:12 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:42 pm",
               "departureTime": "12:42 pm"
             }
@@ -42240,7 +42240,7 @@
           "trip": 6,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:55 pm",
               "departureTime": "12:55 pm"
             },
@@ -42280,7 +42280,7 @@
               "departureTime": "03:33 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:03 pm",
               "departureTime": "04:03 pm"
             }
@@ -42290,7 +42290,7 @@
           "trip": 8,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:45 pm",
               "departureTime": "04:45 pm"
             },
@@ -42330,7 +42330,7 @@
               "departureTime": "07:28 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:58 pm",
               "departureTime": "07:58 pm"
             }
@@ -42340,7 +42340,7 @@
           "trip": 10,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:35 pm",
               "departureTime": "08:35 pm"
             },
@@ -42369,7 +42369,7 @@
         "PUNALUR",
         "ANCHAL",
         "AYOOR",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KALLAMBALAM",
         "ATTINGAL",
         "VAKKOM"
@@ -42394,7 +42394,7 @@
               "departureTime": "06:25 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:00 am",
               "departureTime": "07:00 am"
             },
@@ -42444,7 +42444,7 @@
               "departureTime": "11:00 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:25 am",
               "departureTime": "11:25 am"
             },
@@ -42494,7 +42494,7 @@
               "departureTime": "03:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:40 pm",
               "departureTime": "03:40 pm"
             },
@@ -42534,7 +42534,7 @@
               "departureTime": "06:00 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:25 pm",
               "departureTime": "06:25 pm"
             },
@@ -50230,7 +50230,7 @@
       "Vehicle Number": "KL 01 X 2727",
       "route": [
         "KILIMANOOR",
-        "PALLICKAL",
+        "PALLIKKAL",
         "OYOOR"
       ],
       "schedule": [
@@ -50243,7 +50243,7 @@
               "departureTime": "05:35 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:05 am",
               "departureTime": "06:05 am"
             },
@@ -50263,7 +50263,7 @@
               "departureTime": "07:12 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:37 am",
               "departureTime": "07:37 am"
             },
@@ -50283,7 +50283,7 @@
               "departureTime": "09:15 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:45 am",
               "departureTime": "09:45 am"
             },
@@ -50303,7 +50303,7 @@
               "departureTime": "10:22 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:47 am",
               "departureTime": "10:47 am"
             },
@@ -50323,7 +50323,7 @@
               "departureTime": "11:28 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:58 am",
               "departureTime": "11:58 am"
             },
@@ -50343,7 +50343,7 @@
               "departureTime": "12:55 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:20 pm",
               "departureTime": "01:20 pm"
             },
@@ -50363,7 +50363,7 @@
               "departureTime": "02:45 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:15 pm",
               "departureTime": "03:15 pm"
             },
@@ -50383,7 +50383,7 @@
               "departureTime": "04:01 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:26 pm",
               "departureTime": "04:26 pm"
             },
@@ -50403,7 +50403,7 @@
               "departureTime": "05:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:50 pm",
               "departureTime": "05:50 pm"
             },
@@ -50423,7 +50423,7 @@
               "departureTime": "06:45 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:10 pm",
               "departureTime": "07:10 pm"
             },
@@ -50443,7 +50443,7 @@
               "departureTime": "08:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:50 pm",
               "departureTime": "08:50 pm"
             },
@@ -50463,7 +50463,7 @@
               "departureTime": "09:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:45 pm",
               "departureTime": "09:45 pm"
             },
@@ -55295,7 +55295,7 @@
       "route": [
         "KALLARA",
         "KILIMANOOR",
-        "PALLICKAL",
+        "PALLIKKAL",
         "PARIPPALLY MARKET JUNCTION"
       ],
       "schedule": [
@@ -55308,7 +55308,7 @@
               "departureTime": "06:06 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:36 am",
               "departureTime": "06:36 am"
             },
@@ -55328,7 +55328,7 @@
               "departureTime": "07:10 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:30 am",
               "departureTime": "07:30 am"
             }
@@ -55338,7 +55338,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:32 am",
               "departureTime": "07:32 am"
             },
@@ -55358,7 +55358,7 @@
               "departureTime": "08:45 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:15 am",
               "departureTime": "09:15 am"
             },
@@ -55378,7 +55378,7 @@
               "departureTime": "10:02 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:22 am",
               "departureTime": "10:22 am"
             },
@@ -55408,7 +55408,7 @@
               "departureTime": "11:49 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:19 pm",
               "departureTime": "12:19 pm"
             },
@@ -55428,7 +55428,7 @@
               "departureTime": "01:17 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:37 pm",
               "departureTime": "01:37 pm"
             },
@@ -55458,7 +55458,7 @@
               "departureTime": "04:09 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:39 pm",
               "departureTime": "04:39 pm"
             },
@@ -55478,7 +55478,7 @@
               "departureTime": "05:25 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:45 pm",
               "departureTime": "05:45 pm"
             },
@@ -59116,7 +59116,7 @@
     {
       "Vehicle Number": "KL 16 K 8264",
       "route": [
-        "PALLICKAL",
+        "PALLIKKAL",
         "KILIMANOOR",
         "ATTINGAL",
         "CHIRAYINKIL"
@@ -59126,7 +59126,7 @@
           "trip": 1,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:20 am",
               "departureTime": "07:20 am"
             },
@@ -59166,7 +59166,7 @@
               "departureTime": "10:15 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "10:45 am",
               "departureTime": "10:45 am"
             }
@@ -59176,7 +59176,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:15 am",
               "departureTime": "11:15 am"
             },
@@ -59216,7 +59216,7 @@
               "departureTime": "01:55 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:25 pm",
               "departureTime": "02:25 pm"
             }
@@ -59226,7 +59226,7 @@
           "trip": 5,
           "stations": [
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:20 pm",
               "departureTime": "03:20 pm"
             },
@@ -59266,7 +59266,7 @@
               "departureTime": "06:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:50 pm",
               "departureTime": "06:50 pm"
             }
@@ -61423,7 +61423,7 @@
         "PUNALUR",
         "ANCHAL",
         "AYOOR",
-        "PALLICKAL",
+        "PALLIKKAL",
         "KALLAMBALAM",
         "ATTINGAL",
         "KOTTARAKARI"
@@ -61438,7 +61438,7 @@
               "departureTime": "05:35 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:30 am",
               "departureTime": "06:30 am"
             },
@@ -61478,7 +61478,7 @@
               "departureTime": "08:45 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:10 am",
               "departureTime": "09:10 am"
             },
@@ -61518,7 +61518,7 @@
               "departureTime": "01:15 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:50 pm",
               "departureTime": "01:50 pm"
             },
@@ -61558,7 +61558,7 @@
               "departureTime": "03:40 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:05 pm",
               "departureTime": "04:05 pm"
             },
@@ -62434,7 +62434,7 @@
         "CHIRAYINKEEZHU",
         "ATTINGAL",
         "KALLAMBALAM",
-        "PALLICKAL",
+        "PALLIKKAL",
         "NILAMEL",
         "KADAKKAL,KL02",
         "MADATHARA",
@@ -62460,7 +62460,7 @@
               "departureTime": "06:40 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:05 am",
               "departureTime": "07:05 am"
             },
@@ -62510,7 +62510,7 @@
               "departureTime": "10:50 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:15 am",
               "departureTime": "11:15 am"
             },
@@ -62550,7 +62550,7 @@
               "departureTime": "01:10 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:35 pm",
               "departureTime": "01:35 pm"
             },
@@ -62600,7 +62600,7 @@
               "departureTime": "05:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:45 pm",
               "departureTime": "06:00 pm"
             },
@@ -65057,7 +65057,7 @@
       "Vehicle Number": "KL 21 1314",
       "route": [
         "KALLAMBALAM",
-        "PALLICKAL",
+        "PALLIKKAL",
         "AYOOR"
       ],
       "schedule": [
@@ -65070,7 +65070,7 @@
               "departureTime": "06:43 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:08 am",
               "departureTime": "07:08 am"
             },
@@ -65090,7 +65090,7 @@
               "departureTime": "07:55 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "08:30 am",
               "departureTime": "08:30 am"
             },
@@ -65110,7 +65110,7 @@
               "departureTime": "09:20 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:45 am",
               "departureTime": "09:45 am"
             },
@@ -65130,7 +65130,7 @@
               "departureTime": "10:35 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "11:10 am",
               "departureTime": "11:10 am"
             },
@@ -65150,7 +65150,7 @@
               "departureTime": "12:00 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "12:25 pm",
               "departureTime": "12:25 pm"
             },
@@ -65170,7 +65170,7 @@
               "departureTime": "01:05 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "01:40 pm",
               "departureTime": "01:40 pm"
             },
@@ -65190,7 +65190,7 @@
               "departureTime": "03:00 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "03:25 pm",
               "departureTime": "03:25 pm"
             },
@@ -65210,7 +65210,7 @@
               "departureTime": "04:10 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "04:45 pm",
               "departureTime": "04:45 pm"
             },
@@ -65230,7 +65230,7 @@
               "departureTime": "05:30 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:55 pm",
               "departureTime": "05:55 pm"
             },
@@ -65250,7 +65250,7 @@
               "departureTime": "06:55 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "07:30 pm",
               "departureTime": "07:30 pm"
             },
@@ -71391,7 +71391,7 @@
         "KOTTARAKARI",
         "ATTINGAL",
         "KALLAMBALAM",
-        "PALLICKAL",
+        "PALLIKKAL",
         "CHADAYAMANGALAM",
         "AYOOR",
         "ANCHAL",
@@ -71417,7 +71417,7 @@
               "departureTime": "05:50 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "06:15 am",
               "departureTime": "06:15 am"
             },
@@ -71467,7 +71467,7 @@
               "departureTime": "09:20 am"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "09:45 am",
               "departureTime": "09:45 am"
             },
@@ -71507,7 +71507,7 @@
               "departureTime": "01:35 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "02:00 pm",
               "departureTime": "02:00 pm"
             },
@@ -71557,7 +71557,7 @@
               "departureTime": "05:20 pm"
             },
             {
-              "station": "PALLICKAL",
+              "station": "PALLIKKAL",
               "arrivalTime": "05:45 pm",
               "departureTime": "05:45 pm"
             },
