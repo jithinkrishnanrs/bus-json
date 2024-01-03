@@ -35,6 +35,38 @@ a:hover {
   padding-top: 55px;
 }
 
+/* Style for dropdown labels */
+label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Increase the height of the dropdown */
+.select2-selection__rendered {
+  line-height: 40px; /* Adjust the height as needed */
+}
+
+.select2-container--default .select2-selection--single{
+  height: 31px;
+}
+
+/* Style for Select2 dropdown container */
+.select2-container {
+  border: 1px solid #fff700; /* Border color and style */
+  margin-bottom: 20px;
+}
+
+/* Style for Select2 dropdown labels */
+.select2-container label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Style for the button */
+.btn-primary {
+  margin-top: 10px;
+}
+
 h1,
 h2,
 h3,
