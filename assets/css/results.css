@@ -12,56 +12,54 @@ th, td {
     font-size: 11px;
 }
 
+/* Container for displaying results */
 #results-container {
-    /* Center horizontally */
     margin-left: auto;
     margin-right: auto;
-    
-    max-height: calc(100vh - 100px); /* Adjust the 100px based on your header and footer heights */
-    overflow-y: auto; /* Add vertical scroll if content exceeds the maximum height */
-    background-color: #d8d8d8; /* Light gray background color */
-    padding: 20px; /* Add padding around the results tables */
-    border-radius: 10px; /* Optional: Add rounded corners */
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    background-color: #d8d8d8;
+    padding: 10px;
+    border-radius: 10px;
     margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-    max-width: 100%; /* Set initial maximum width to 100% */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
 
     @media screen and (max-width: 767px) {
-        padding: 20px 10px; /* Adjust padding for smaller screens */
-        max-width: 100%; /* Adjust the maximum width for smaller screens */
+        padding: 20px 10px;
+        max-width: 100%;
     }
 
-    /* Media query for screens with a minimum width of 768px and a maximum width of 1200px */
     @media screen and (min-width: 768px) and (max-width: 1200px) {
-        max-width: 80%; /* Adjust the maximum width for screens between 768px and 1200px */
+        max-width: 80%;
     }
 
-    /* Media query for screens with a minimum width of 1201px */
     @media screen and (min-width: 1201px) {
-        max-width: 1200px; /* Set a fixed maximum width for larger screens */
+        max-width: 1200px;
     }
 }
 
 /* Style for table heading */
 #results-container th {
-    background-color: #002144; /* Heading background color */
-    color: #fff; /* Heading text color */
+    background-color: #002144;
+    color: #fff;
 }
 
 /* Additional style for tables within the container, including alternate row background color */
 #results-container table {
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px; /* Optional: Add rounded corners to tables */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(158, 0, 202, 0.1);
 }
 
 /* Style for alternate row background colors within tables */
 #results-container tr:nth-child(even) {
-    background-color: #e6f7ff; /* Alternate row background color 1 */
+    background-color: #e6f7ff;
 }
 
 #results-container tr:nth-child(odd) {
-    background-color: #cce5ff; /* Alternate row background color 2 */
+    background-color: #cce5ff;
 }
 
 /* Style for the schedule table */
@@ -72,20 +70,20 @@ th, td {
 /* Style for the "No bus found" message */
 .no-bus-message {
     font-family: "Raleway", sans-serif;
-    color: #d9534f; /* Set text color to a red shade */
-    font-size: 16px; /* Set font size */
+    color: #d9534f;
+    font-size: 16px;
     padding-bottom: 30px;
-    font-weight: bold; /* Make the text bold */
-    text-align: center; /* Center-align the text */
-    margin-top: 20px; /* Add some top margin */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
 }
 
-/* Add these styles to your CSS file or style section */
+/* Button styles */
 button {
-    padding: 10px 25px; /* Increased padding for a larger button */
-    font-family: "Raleway", sans-serif; /* Use Raleway font for the button text */
-    font-size: 12px; /* Increased font size */
-    margin-top: 50px; /* Add some top margin for separation */
+    padding: 10px 25px;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    margin-top: 50px;
     background-color: #3a005f;
     border-color: #3a005f;
     color: #fff;
@@ -93,26 +91,25 @@ button {
     border-radius: 5px;
     cursor: pointer;
     display: block;
-    margin: 0 auto; /* Center the button horizontally */
+    margin: 0 auto;
 }
 
 button:hover {
     background-color: #2d0042;
 }
 
-
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 767px) {
     th, td {
-        padding: 8px; /* Decrease padding for smaller screens */
-        font-size: 0.9em; /* Adjust font size for smaller screens */
+        padding: 8px;
+        font-size: 0.9em;
     }
 
     /* Make the schedule table more responsive */
     .schedule-table th, .schedule-table td {
         text-align: left;
         box-sizing: border-box;
-        word-wrap: break-word; /* Allow long words to break and wrap to the next line */
+        word-wrap: break-word;
     }
     
     .schedule-table th {
@@ -121,8 +118,8 @@ button:hover {
     }
 
     .schedule-table td {
-        border: none; /* Remove borders between cells */
-        border-bottom: 1px solid #ddd; /* Add border only at the bottom of each row */
+        border: none;
+        border-bottom: 1px solid #ddd;
     }
 
     /* Enable horizontal scrolling for the schedule table */

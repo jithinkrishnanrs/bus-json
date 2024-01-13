@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         'json/pathanamthitta.json',
         'json/vadakara.json',
         'json/wayanad.json'
-      ];
+    ];
 
     // Fetch data from each JSON file
     Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json())))
@@ -77,7 +77,7 @@ function isOrderedStations(route, stations, origin, destination) {
 
     return (
         originStationIndex !== -1 &&
-        destinationStationIndex !== -1 &&
+        destinationStationIndex !==-1 &&
         originStationIndex < destinationStationIndex &&
         originIndex < destinationIndex
     );
@@ -92,20 +92,12 @@ function displayResults(schedules, origin, destination) {
             <h5 class="no-bus-message">Please select your Origin and Destination stops!</h5>
             <button onclick="backToHome()">Back to Home</button>`;
         return;
-    } else if (!origin) {
+    } else if (!origin || !destination) {
         resultsContainer.innerHTML = `
             <h5 class="no-bus-message">Please select both Origin and Destination stops!</h5>
             <button onclick="backToHome()">Back to Home</button>`;
         return;
-    } else if (!destination) {
-        resultsContainer.innerHTML = `
-            <h5 class="no-bus-message">Please select both Origin and Destination stops!</h5>
-            <button onclick="backToHome()">Back to Home</button>`;
-        return;
-    }    
-
-    // Check if the selected origin and destination are the same
-    if (origin === destination) {
+    } else if (origin === destination) {
         resultsContainer.innerHTML = `
             <h5 class="no-bus-message">Origin and destination stops cannot be the same! Please select different stops.</h5>
             <button onclick="backToHome()">Back to Home</button>`;
@@ -118,12 +110,55 @@ function displayResults(schedules, origin, destination) {
         resultsContainer.innerHTML = `
             <p class="no-bus-message">No bus found for the selected stops!</p>
             <button onclick="backToHome()">Back to Home</button>`;
-    return;
-}
-
+        return;
+    }
 
     if (schedules.length > 0) {
-        schedules.forEach(schedule => {
+        // Flatten the schedules array to combine trips of A and B
+        const flattenedSchedules = schedules.reduce((acc, schedule) => {
+            schedule.tripDetails.forEach(trip => {
+                acc.push({
+                    busNumber: schedule.busNumber,
+                    busName: schedule.busName,
+                    tripDetails: [trip],
+                });
+            });
+            return acc;
+        }, []);
+
+        // Sort the flattened schedules based on the arrival time at the first station
+        flattenedSchedules.sort((a, b) => {
+            const firstStationA = a.tripDetails[0].stations.find(station => station.station === origin);
+            const firstStationB = b.tripDetails[0].stations.find(station => station.station === origin);
+
+            if (firstStationA && firstStationB) {
+                const parseTime = (time) => {
+                    const [hours, minutes] = time.replace(/[^0-9:]/g, '').split(':');
+                    const isPM = time.includes('pm');
+                    let parsedHours = parseInt(hours);
+                    const parsedMinutes = parseInt(minutes);
+
+                    if (isPM && parsedHours !== 12) {
+                        parsedHours += 12;
+                    } else if (!isPM && parsedHours === 12) {
+                        parsedHours = 0;
+                    }
+
+                    return parsedHours * 60 + parsedMinutes;
+                };
+
+                const arrivalTimeA = parseTime(firstStationA.arrivalTime);
+                const arrivalTimeB = parseTime(firstStationB.arrivalTime);
+
+                return arrivalTimeA - arrivalTimeB;
+            }
+
+            // Handle cases where arrival time information is missing
+            return 0;
+        });
+
+        // Display the sorted flattened schedules
+        flattenedSchedules.forEach(schedule => {
             const busNumber = schedule.busNumber;
             const busName = schedule.busName || '';
 
@@ -173,9 +208,10 @@ function displayResults(schedules, origin, destination) {
             });
         });
     } else {
-        resultsContainer.innerHTML = '<h5 class="no-bus-message">No bus found for the selected stops!</br></br>Please check the selected stops and Try Again.</h5">';
+        resultsContainer.innerHTML = '<h5 class="no-bus-message">No bus found for the selected stops!</h5>';
     }
 }
+
 
 function makeBoldIfSelected(value, origin, destination) {
     // Make the selected dropdown values bold
@@ -189,4 +225,3 @@ function makeBoldIfSelected(value, origin, destination) {
 function backToHome() {
     window.location.href = 'index.html';
 }
-
