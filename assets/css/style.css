@@ -140,14 +140,42 @@ h6,
     padding: 8px 0;
   }
 
-  #header{
+  #header {
     background-color: #000;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 1px;
+  }
+
+  #hero .php-email-form input {
+    margin: 0 auto;
+  }
+  
+  #hero .countdown {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+
+  .contact .contact-address,
+  .contact .contact-phone,
+  .contact .contact-email {
+    padding: 20px 0;
   }
 }
 
-.results-page #header {
-  background-color: black;
-}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -277,36 +305,6 @@ h6,
   background: transparent;
   color: #fff;
   border: 2px solid #fff;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 1px;
-  }
-
-  #hero .php-email-form input {
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 575px) {
-  #hero .countdown {
-    font-size: 32px;
-    line-height: 38px;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -450,19 +448,6 @@ section {
 
   100% {
     transform: rotate(360deg);
-  }
-}
-
-@media (min-width: 768px) {
-  .contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-
-  .contact .contact-address,
-  .contact .contact-phone,
-  .contact .contact-email {
-    padding: 20px 0;
   }
 }
 
