@@ -24,7 +24,7 @@ th, td {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
     max-width: 100%; /* Set initial maximum width to 100% */
     @media screen and (max-width: 767px) {
-        padding-top: 40px;
+        padding-top: 20px;
         max-width: 100%; /* Adjust the maximum width for smaller screens */
     }
 
@@ -74,10 +74,10 @@ th, td {
 
     /* Make the schedule table more responsive */
     .schedule-table th, .schedule-table td {
-        width: calc(100vh - 100px); /* Full width for each column on smaller screens */
+        width: 100%; /* Full width for each column on smaller screens */
         text-align: left;
-        display: block;
         box-sizing: border-box;
+        word-wrap: break-word; /* Allow long words to break and wrap to the next line */
     }
 
     .schedule-table th {
@@ -95,3 +95,4 @@ th, td {
         overflow-x: auto;
     }
 }
+
