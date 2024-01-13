@@ -1,14 +1,12 @@
 /**
-* Template Name: WeBuild
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+ * Template Name: WeBuild
+ * Updated: Sep 18 2023 with Bootstrap v5.3.2
+ * Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
+ * Author: BootstrapMade.com
+ * License: https://bootstrapmade.com/license/
+ */
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/* General Styles */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -24,63 +22,64 @@ a:hover {
   text-decoration: none;
 }
 
+/* Filters Styles */
 #filters {
-  border: 1px solid #ddd; /* Border color and style */
-  padding: 50px; /* Padding inside the border */
-  border-radius: 15px; /* Optional: Add rounded corners */
-  max-width: 400px; /* Set a maximum width for the form */
-  width: 100%; /* Ensure the form takes 100% width within the maximum width */
-  margin: 0 auto; /* Center the form horizontally */
+  border: 1px solid #ddd;
+  padding: 50px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
   background-color: #ffffff;
   padding-top: 55px;
 }
 
-/* Style for dropdown labels */
+/* Dropdown Styles */
 label {
   margin-bottom: 5px;
   display: block;
 }
 
-/* Increase the height of the dropdown */
 .select2-selection__rendered {
-  line-height: 40px; /* Adjust the height as needed */
+  line-height: 40px;
 }
 
-.select2-container--default .select2-selection--single{
+.select2-container--default .select2-selection--single {
   height: 31px;
 }
 
-/* Style for Select2 dropdown container */
 .select2-container {
-  border: 1px solid #6b4aa1; /* Border color and style */
+  border: 1px solid #6b4aa1;
   margin-bottom: 20px;
 }
 
-/* Style for Select2 dropdown labels */
 .select2-container label {
   margin-bottom: 5px;
   display: block;
 }
 
-/* Style for the button */
+/* Button Styles */
 .btn-primary {
-  font-family: "Raleway", sans-serif;
-  margin-top: 10px;
-  background-color: #3a005f;
-  border-color: #3a005f;
+  font: 500 16px "Raleway", sans-serif;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 30px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #4f92af;
+  color: #fff;
+  background: #4f92af;
 }
 
 .btn-primary:hover {
-  background-color: #730093;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.font-primary {
+/* Heading and Font Styles */
+h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Raleway", sans-serif;
 }
 
@@ -88,9 +87,7 @@ h6,
   text-align: center;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* Header Styles */
 #header {
   height: 80px;
   padding: 20px 0;
@@ -110,8 +107,7 @@ h6,
   letter-spacing: 3px;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
+#header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -134,7 +130,23 @@ h6,
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+/* Responsive Styles */
+@media (max-width: 1080px) {
+  #hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 25px;
+    padding-top: 0;
+  }
+
   #header .logo h1 {
     font-size: 15px;
     padding: 8px 0;
@@ -145,6 +157,7 @@ h6,
   }
 
   #hero h1 {
+    margin-top: 20px;
     font-size: 28px;
     line-height: 36px;
   }
@@ -152,16 +165,10 @@ h6,
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 1px;
   }
 
   #hero .php-email-form input {
     margin: 0 auto;
-  }
-  
-  #hero .countdown {
-    font-size: 32px;
-    line-height: 38px;
   }
 
   .contact .contact-phone {
@@ -174,21 +181,21 @@ h6,
   .contact .contact-email {
     padding: 20px 0;
   }
+
+  #filters {
+    max-width: 100%;
+  }
 }
 
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/* Hero Section Styles */
 #hero {
   width: 100%;
   height: 100vh;
   background: url("../img/retro-busbg.jpg") top center;
   background-size: cover;
   position: relative;
-  margin-top: -80px;
+  margin-top: 0;
   z-index: 9;
-  /* countdown */
 }
 
 #hero .hero-container {
@@ -203,6 +210,7 @@ h6,
   flex-direction: column;
   text-align: center;
   padding: 0 25px;
+  padding-top: 0;
 }
 
 #hero h1 {
@@ -216,16 +224,7 @@ h6,
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 30px;
   font-size: 24px;
-}
-
-#hero .countdown {
-  font-size: 48px;
-  font-weight: 300;
-  color: #fff;
-  line-height: 56px;
-  margin: 30px 0 60px 0;
 }
 
 #hero .php-email-form .error-message {
@@ -307,9 +306,7 @@ h6,
   border: 2px solid #fff;
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/* Sections General Styles */
 section {
   padding: 60px 0;
 }
@@ -334,9 +331,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Contact Us
---------------------------------------------------------------*/
+/* Contact Us Styles */
 .contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
@@ -349,8 +344,7 @@ section {
   color: #4f92af;
 }
 
-.contact .contact-info address,
-.contact .contact-info p {
+.contact .contact-info address, .contact .contact-info p {
   margin-bottom: 0;
   color: #444;
 }
@@ -370,9 +364,7 @@ section {
   color: #4f92af;
 }
 
-.contact .contact-address,
-.contact .contact-phone,
-.contact .contact-email {
+.contact .contact-address, .contact .contact-phone, .contact .contact-email {
   margin-bottom: 20px;
 }
 
@@ -417,15 +409,13 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
   border-color: #4f92af;
 }
 
@@ -451,9 +441,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* Footer Styles */
 #footer {
   background: #0d182d;
   padding: 30px 0;
