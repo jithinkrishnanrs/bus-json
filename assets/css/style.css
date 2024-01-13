@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #hero .hero-container {
     position: absolute;
     bottom: 0;
@@ -188,18 +188,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   .contact .contact-email {
     padding: 20px 0;
   }
-  
+
   #filters {
     max-width: 100%;
   }
-  
-  @media screen and (min-width: 1201px) {
-    #filters {
-      max-width: 1200px;
-    }
-  }
-  
-  
 }
 
 /* Hero Section Styles */
