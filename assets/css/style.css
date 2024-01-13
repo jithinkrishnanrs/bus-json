@@ -64,13 +64,14 @@ label {
 
 /* Style for the button */
 .btn-primary {
+  font-family: "Raleway", sans-serif;
   margin-top: 10px;
   background-color: #3a005f;
   border-color: #3a005f;
 }
 
 .btn-primary:hover {
-  background-color: #8e00be;
+  background-color: #730093;
 }
 
 h1,

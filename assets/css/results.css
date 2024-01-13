@@ -82,22 +82,23 @@ th, td {
 
 /* Add these styles to your CSS file or style section */
 button {
-    padding: 10px 20px;
-    font-family: "Raleway", sans-serif;
-    background-color: #4c005f;
+    padding: 10px 25px; /* Increased padding for a larger button */
+    font-family: "Raleway", sans-serif; /* Use Raleway font for the button text */
+    font-size: 12px; /* Increased font size */
+    margin-top: 50px; /* Add some top margin for separation */
+    background-color: #3a005f;
+    border-color: #3a005f;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 50px; /* Add some top margin for separation */
     display: block;
     margin: 0 auto; /* Center the button horizontally */
 }
 
 button:hover {
-    background-color: #730093;
+    background-color: #2d0042;
 }
-
 
 
 /* Responsive styles for smaller screens */
