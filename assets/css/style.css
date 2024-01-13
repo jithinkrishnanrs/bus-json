@@ -1,14 +1,12 @@
 /**
-* Template Name: WeBuild
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+ * Template Name: WeBuild
+ * Updated: Sep 18 2023 with Bootstrap v5.3.2
+ * Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
+ * Author: BootstrapMade.com
+ * License: https://bootstrapmade.com/license/
+ */
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/* General Styles */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -16,7 +14,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #4f92af;
+  color: #3a005f; /* Updated color */
 }
 
 a:hover {
@@ -24,68 +22,80 @@ a:hover {
   text-decoration: none;
 }
 
+/* Filters Styles */
 #filters {
-  border: 1px solid #ddd; /* Border color and style */
-  padding: 50px; /* Padding inside the border */
-  border-radius: 15px; /* Optional: Add rounded corners */
-  max-width: 400px; /* Set a maximum width for the form */
-  width: 100%; /* Ensure the form takes 100% width within the maximum width */
-  margin: 0 auto; /* Center the form horizontally */
+  border: 1px solid #ddd;
+  padding: 50px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
   background-color: #ffffff;
   padding-top: 55px;
+  box-shadow: 0 2px 5px rgba(158, 0, 202, 0.1);
 }
 
-/* Style for dropdown labels */
+/* Dropdown Styles */
 label {
   margin-bottom: 5px;
   display: block;
 }
 
-/* Increase the height of the dropdown */
 .select2-selection__rendered {
-  line-height: 40px; /* Adjust the height as needed */
+  line-height: 40px;
 }
 
-.select2-container--default .select2-selection--single{
+.select2-container--default .select2-selection--single {
   height: 31px;
 }
 
-/* Style for Select2 dropdown container */
 .select2-container {
-  border: 1px solid #fff700; /* Border color and style */
+  border-radius: 5px;
+  border: 1px solid #6b4aa1;
   margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow */
 }
 
-/* Style for Select2 dropdown labels */
 .select2-container label {
   margin-bottom: 5px;
   display: block;
 }
 
-/* Style for the button */
+
 .btn-primary {
-  margin-top: 10px;
-  background-color: #3a005f;
-  border-color: #3a005f;
+  font: 500 16px "Raleway", sans-serif;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 30px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #3a005f; /* Updated color */
+  color: #fff;
+  background: #3a005f; /* Updated color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added box shadow */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.font-primary {
+.btn-primary:hover {
+  background-color: #6b4aa1;
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Added box shadow on hover */
+}
+
+
+/* Heading and Font Styles */
+h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Raleway", sans-serif;
 }
 
 .results-page h4 {
   text-align: center;
+  text-shadow: #3a005f;
+  font-weight: bold;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* Header Styles */
 #header {
   height: 80px;
   padding: 20px 0;
@@ -105,8 +115,7 @@ h6,
   letter-spacing: 3px;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
+#header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -129,24 +138,71 @@ h6,
   text-decoration: underline;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
+  #hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 25px;
+  }
+
   #header .logo h1 {
     font-size: 15px;
     padding: 8px 0;
   }
 
-  #header{
+  #header {
     background-color: #000;
   }
+
+  #hero h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #hero .php-email-form input {
+    margin: 0 auto;
+  }
+
+  .contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+
+  .contact .contact-address,
+  .contact .contact-phone,
+  .contact .contact-email {
+    padding: 20px 0;
+  }
+  
+  #filters {
+    max-width: 100%;
+  }
+  
+  @media screen and (min-width: 1201px) {
+    #filters {
+      max-width: 1200px;
+    }
+  }
+  
+  
 }
 
-.results-page #header {
-  background-color: black;
-}
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/* Hero Section Styles */
 #hero {
   width: 100%;
   height: 100vh;
@@ -155,7 +211,6 @@ h6,
   position: relative;
   margin-top: -80px;
   z-index: 9;
-  /* countdown */
 }
 
 #hero .hero-container {
@@ -170,11 +225,12 @@ h6,
   flex-direction: column;
   text-align: center;
   padding: 0 25px;
+  padding-top: 0;
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -183,16 +239,7 @@ h6,
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 30px;
   font-size: 24px;
-}
-
-#hero .countdown {
-  font-size: 48px;
-  font-weight: 300;
-  color: #fff;
-  line-height: 56px;
-  margin: 30px 0 60px 0;
 }
 
 #hero .php-email-form .error-message {
@@ -263,50 +310,17 @@ h6,
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #4f92af;
+  border: 2px solid #3a005f; /* Updated color */
   color: #fff;
-  background: #4f92af;
+  background: #3a005f; /* Updated color */
 }
 
 #hero .php-email-form button[type=submit]:hover {
-  background: transparent;
   color: #fff;
   border: 2px solid #fff;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 1px;
-  }
-
-  #hero .php-email-form input {
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 575px) {
-  #hero .countdown {
-    font-size: 32px;
-    line-height: 38px;
-  }
-}
-
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/* Sections General Styles */
 section {
   padding: 60px 0;
 }
@@ -331,9 +345,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Contact Us
---------------------------------------------------------------*/
+/* Contact Us Styles */
 .contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
@@ -343,11 +355,16 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #4f92af;
+  color: #5e2781;
+  transition: transform 0.3s ease-in-out;
 }
 
-.contact .contact-info address,
-.contact .contact-info p {
+/* Hover Animation for Icons */
+.contact .contact-info i:hover {
+  transform: scale(1.2);
+}
+
+.contact .contact-info address, .contact .contact-info p {
   margin-bottom: 0;
   color: #444;
 }
@@ -367,9 +384,7 @@ section {
   color: #4f92af;
 }
 
-.contact .contact-address,
-.contact .contact-phone,
-.contact .contact-email {
+.contact .contact-address, .contact .contact-phone, .contact .contact-email {
   margin-bottom: 20px;
 }
 
@@ -414,20 +429,18 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: #4f92af;
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  border-color: #3a005f; /* Updated color */
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4f92af;
+  background: #3a005f; /* Updated color */
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -448,25 +461,17 @@ section {
   }
 }
 
-@media (min-width: 768px) {
-  .contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-
-  .contact .contact-address,
-  .contact .contact-phone,
-  .contact .contact-email {
-    padding: 20px 0;
-  }
+/* Additional Hover Animation for Specific Links */
+a[href="https://forms.gle/a1LQhTxfW9Hpjn5U7"]:hover,
+a[href="https://forms.gle/AftuK6pY5RAB7ywJ6"]:hover {
+  /* Add specific hover styles for the given links */
+  color: #72a8bf; /* Change color on hover for specific links */
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* Footer Styles */
 #footer {
   background: #0d182d;
-  padding: 30px 0;
+  padding: 15px 0;
   color: #fff;
   font-size: 14px;
 }
@@ -480,7 +485,7 @@ section {
 }
 
 #footer .credits {
-  padding-top: 10px;
+  padding-top: 5px;
   text-align: center;
   font-size: 13px;
   color: #fff;
