@@ -44,7 +44,7 @@ th, td {
 
 /* Style for table heading */
 #results-container th {
-    background-color: #007bff; /* Heading background color */
+    background-color: #002144; /* Heading background color */
     color: #fff; /* Heading text color */
 }
 
@@ -68,6 +68,16 @@ th, td {
 .schedule-table {
     width: 100%;
 }
+
+/* Style for the "No bus found" message */
+.no-bus-message {
+    color: #d9534f; /* Set text color to a red shade */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Add some top margin */
+}
+
 
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 767px) {

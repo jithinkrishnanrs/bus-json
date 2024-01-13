@@ -65,6 +65,8 @@ label {
 /* Style for the button */
 .btn-primary {
   margin-top: 10px;
+  background-color: #18d26e;
+  border-color: #18d26e;
 }
 
 h1,
@@ -89,10 +91,13 @@ h6,
   padding: 20px 0;
   position: relative;
   z-index: 10;
+  background-color: #000;
+  box-shadow: #ddd;
+  text-shadow: #18d26e;
 }
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -164,7 +169,7 @@ h6,
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px;
+  padding: 0 25px;
 }
 
 #hero h1 {
