@@ -6,9 +6,10 @@ table {
 }
 
 th, td {
-    padding: 12px; /* Increase padding for better touch interaction */
+    padding: 15px; /* Increase padding for better touch interaction */
     text-align: left;
     word-wrap: break-word; /* Allow long words to break and wrap to the next line */
+    font-size: 11px;
 }
 
 #results-container {
@@ -24,8 +25,9 @@ th, td {
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
     max-width: 100%; /* Set initial maximum width to 100% */
+
     @media screen and (max-width: 767px) {
-        padding-top: 20px;
+        padding: 20px 10px; /* Adjust padding for smaller screens */
         max-width: 100%; /* Adjust the maximum width for smaller screens */
     }
 
@@ -71,6 +73,7 @@ th, td {
 @media screen and (max-width: 767px) {
     th, td {
         padding: 8px; /* Decrease padding for smaller screens */
+        font-size: 0.9em; /* Adjust font size for smaller screens */
     }
 
     /* Make the schedule table more responsive */
