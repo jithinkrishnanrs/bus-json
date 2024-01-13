@@ -88,28 +88,39 @@ function displayResults(schedules, origin, destination) {
 
     // Check if origin and/or destination are not selected
     if (!origin && !destination) {
-        resultsContainer.innerHTML = '<h5 class="no-bus-message">Please select your Origin and Destination stops!</h5>';
+        resultsContainer.innerHTML = `
+            <h5 class="no-bus-message">Please select your Origin and Destination stops!</h5>
+            <button onclick="backToHome()">Back to Home</button>`;
         return;
     } else if (!origin) {
-        resultsContainer.innerHTML = '<h5 class="no-bus-message">Please select both Origin and Destination stops!</h5>';
+        resultsContainer.innerHTML = `
+            <h5 class="no-bus-message">Please select both Origin and Destination stops!</h5>
+            <button onclick="backToHome()">Back to Home</button>`;
         return;
     } else if (!destination) {
-        resultsContainer.innerHTML = '<h5 class="no-bus-message">Please select both Origin and Destination stops!</h5>';
+        resultsContainer.innerHTML = `
+            <h5 class="no-bus-message">Please select both Origin and Destination stops!</h5>
+            <button onclick="backToHome()">Back to Home</button>`;
         return;
     }    
 
     // Check if the selected origin and destination are the same
     if (origin === destination) {
-        resultsContainer.innerHTML = '<h5 class="no-bus-message">Origin and destination stops cannot be the same! Please select different stops.</h5">';
+        resultsContainer.innerHTML = `
+            <h5 class="no-bus-message">Origin and destination stops cannot be the same! Please select different stops.</h5>
+            <button onclick="backToHome()">Back to Home</button>`;
         return;
     }
 
     // Check if the results container is already populated
     if (!resultsContainer.innerHTML.trim()) {
         // Display the message only if the container is empty
-        resultsContainer.innerHTML = '<p class="no-bus-message">No bus found for the selected stops!</p>';
-        return;
-    }
+        resultsContainer.innerHTML = `
+            <p class="no-bus-message">No bus found for the selected stops!</p>
+            <button onclick="backToHome()">Back to Home</button>`;
+    return;
+}
+
 
     if (schedules.length > 0) {
         schedules.forEach(schedule => {
@@ -174,3 +185,8 @@ function makeBoldIfSelected(value, origin, destination) {
         return value;
     }
 }
+
+function backToHome() {
+    window.location.href = 'index.html';
+}
+
