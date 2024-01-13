@@ -52,7 +52,7 @@ label {
 
 /* Style for Select2 dropdown container */
 .select2-container {
-  border: 1px solid #fff700; /* Border color and style */
+  border: 1px solid #6b4aa1; /* Border color and style */
   margin-bottom: 20px;
 }
 
@@ -67,6 +67,10 @@ label {
   margin-top: 10px;
   background-color: #3a005f;
   border-color: #3a005f;
+}
+
+.btn-primary:hover {
+  background-color: #8e00be;
 }
 
 h1,

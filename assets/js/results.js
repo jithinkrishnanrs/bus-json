@@ -86,6 +86,18 @@ function isOrderedStations(route, stations, origin, destination) {
 function displayResults(schedules, origin, destination) {
     const resultsContainer = document.getElementById('results-container');
 
+    // Check if origin and/or destination are not selected
+    if (!origin && !destination) {
+        resultsContainer.innerHTML = '<h5 class="no-bus-message">Please select your Origin and Destination stops!</h5>';
+        return;
+    } else if (!origin) {
+        resultsContainer.innerHTML = '<h5 class="no-bus-message">Please select both Origin and Destination stops!</h5>';
+        return;
+    } else if (!destination) {
+        resultsContainer.innerHTML = '<h5 class="no-bus-message">Please select both Origin and Destination stops!</h5>';
+        return;
+    }    
+
     // Check if the selected origin and destination are the same
     if (origin === destination) {
         resultsContainer.innerHTML = '<h5 class="no-bus-message">Origin and destination stops cannot be the same! Please select different stops.</h5">';
