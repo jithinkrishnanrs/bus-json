@@ -11,13 +11,32 @@ th, td {
 }
 
 #results-container {
+    /* Center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    
     max-height: calc(100vh - 100px); /* Adjust the 100px based on your header and footer heights */
     overflow-y: auto; /* Add vertical scroll if content exceeds the maximum height */
-    background-color: #f4f4f4; /* Light gray background color */
+    background-color: #d8d8d8; /* Light gray background color */
     padding: 20px; /* Add padding around the results tables */
     border-radius: 10px; /* Optional: Add rounded corners */
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    max-width: 100%; /* Set initial maximum width to 100% */
+    @media screen and (max-width: 767px) {
+        padding-top: 40px;
+        max-width: 100%; /* Adjust the maximum width for smaller screens */
+    }
+
+    /* Media query for screens with a minimum width of 768px and a maximum width of 1200px */
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        max-width: 80%; /* Adjust the maximum width for screens between 768px and 1200px */
+    }
+
+    /* Media query for screens with a minimum width of 1201px */
+    @media screen and (min-width: 1201px) {
+        max-width: 1200px; /* Set a fixed maximum width for larger screens */
+    }
 }
 
 /* Style for table heading */

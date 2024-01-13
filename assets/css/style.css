@@ -77,6 +77,10 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+.results-page h4 {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -129,6 +133,10 @@ h6,
   #header{
     background-color: #000;
   }
+}
+
+.results-page #header {
+  background-color: black;
 }
 
 /*--------------------------------------------------------------
