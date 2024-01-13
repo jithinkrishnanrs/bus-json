@@ -122,8 +122,12 @@ h6,
 
 @media (max-width: 768px) {
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 20px;
     padding: 8px 0;
+  }
+
+  #header{
+    background-color: #000;
   }
 }
 
@@ -272,7 +276,7 @@ h6,
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
   }
 
   #hero .php-email-form input {

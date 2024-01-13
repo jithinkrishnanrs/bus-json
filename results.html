@@ -1,261 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Basic Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Site Meta Tags -->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Kerala Bus Routes - Your Search Results</title>
+  <meta name="description" content="Explore Kerala's private bus network effortlessly with our comprehensive website. Discover and plan your journey easily with our user-friendly interface. Find the perfect route by selecting your origin and destination stops from our dropdown menu. Access detailed schedules for private buses connecting the chosen points. Simplifying travel across the vibrant landscapes of Kerala, our platform ensures a seamless experience for commuters, providing accurate and up-to-date information on routes and timings.">
+  <meta name="keywords" content="Kerala private bus routes, bus schedules kerala, Kerala transportation, kerala private bus time, kerala bus timings, Kerala transit, Kerala public transport, Kerala bus network, kerala private bus timings">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta name="author" content="Kerala Bus Routes and Timings">
+  <meta name="robots" content="index, follow"> <!-- Allow search engines to index and follow links on your page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure proper rendering on various devices -->
+  <meta name="language" content="English">
+  <meta name="geo.region" content="IN-KL"> <!-- Geographic region of your content, adjust as needed -->
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="results.css">
+  <!-- Open Graph meta tags for better social media sharing -->
+  <meta property="og:title" content="Explore Kerala's Private Bus Network">
+  <meta property="og:description" content="Discover and plan your journey effortlessly with our user-friendly platform. Access detailed schedules and route information for private buses in Kerala.">
+  <!-- <meta property="og:image" content="URL_TO_AN_IMAGE"> Add a relevant image URL for better social media sharing -->
 
-    <!-- Favicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- Twitter Card meta tags for Twitter sharing -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@YourTwitterHandle">
+  <meta name="twitter:title" content="Explore Kerala's Private Bus Network">
+  <meta name="twitter:description" content="Discover and plan your journey effortlessly with our user-friendly platform. Access detailed schedules and route information for private buses in Kerala.">
+  <!-- <meta name="twitter:image" content="URL_TO_AN_IMAGE"> Add a relevant image URL for better Twitter sharing -->
 
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
-    <!-- Fancybox -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <!-- Select2 CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-wB5BZn8F6R3y5Ytnzw8dQPZlVnC7l40poOPFzKDADfcUiYVhF0IUYXlTCiNfFZcu" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
-    <style>
-        /* Style for the container around results tables */
-        #results-container {
-            background-color: #f4f4f4; /* Light gray background color */
-            padding: 20px; /* Add padding around the results tables */
-            border-radius: 10px; /* Optional: Add rounded corners */
-            margin-top: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-        }
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Add this line in the head section of results.html to link the CSS file -->
+  <link href="assets/css/results.css" rel="stylesheet">
 
-        /* Additional style for tables within the container */
-        #results-container table {
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px; /* Optional: Add rounded corners to tables */
-        }
 
-        /* Style for Form Container */
-        #filters {
-            border: 1px solid #ddd; /* Border color and style */
-            padding: 50px; /* Padding inside the border */
-            border-radius: 15px; /* Optional: Add rounded corners */
-            max-width: 400px; /* Set a maximum width for the form */
-            width: 100%; /* Ensure the form takes 100% width within the maximum width */
-            margin: 0 auto; /* Center the form horizontally */
-            margin-top: 55px;
-            background-color: #ffffff;
-            padding-top: 55px;
-        }
-
-        /* Style for dropdown labels */
-        label {
-            margin-bottom: 5px;
-            display: block;
-        }
-
-        /* Increase the height of the dropdown */
-        .select2-selection__rendered {
-            line-height: 40px; /* Adjust the height as needed */
-        }
-
-        .select2-container--default .select2-selection--single{
-            height: 31px;
-        }
-
-        /* Style for Select2 dropdown container */
-        .select2-container {
-            width: 100% !important;
-            border: 1px solid #fff700; /* Border color and style */
-            margin-bottom: 20px;
-        }
-
-        /* Style for Select2 dropdown labels */
-        .select2-container label {
-            margin-bottom: 5px;
-            display: block;
-        }
-
-        /* Style for the button */
-        .btn-primary {
-            margin-top: 10px;
-        }
-    </style>
+  <!-- =======================================================
+  * Template Name: WeBuild
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <!-- Logo Section -->
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                    <div class="full">
-                        <div class="center-desk">
-                            <div class="logo"> <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="36" width="38" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M288 0C422.4 0 512 35.2 512 80V96l0 32c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32l0 160c0 17.7-14.3 32-32 32v32c0 17.7-14.3 32-32 32H416c-17.7 0-32-14.3-32-32V448H192v32c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32l0-32c-17.7 0-32-14.3-32-32l0-160c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h0V96h0V80C64 35.2 153.6 0 288 0zM128 160v96c0 17.7 14.3 32 32 32H272V128H160c-17.7 0-32 14.3-32 32zM304 288H416c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H304V288zM144 400a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm288 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM384 80c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16s7.2 16 16 16H368c8.8 0 16-7.2 16-16z"/></svg></a> </div>
-                            <h3 class ="logo-text">Kerala Bus Schedules</h3>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Menu Section -->
-                <div class="col-xl-7 col-lg-7 col-md-9 col-sm-9">
-                    <div class="menu-area">
-                        <div class="limit-box">
-                            <nav class="main-menu">
-                                <ul class="menu-area-main">
-                                    <li class="active"> <a href="index.html">Home</a> </li>
-                                    <li> <a href="#">About</a> </li>
-                                    <li> <a href="#">Stops</a> </li>
-                                    <li> <a href="#">Contact</a> </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <!-- Loading Overlay -->
-    <div id="loading-overlay">
-        <div class="loading-spinner"></div>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Kerala Bus Routes</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <div class="contact-link float-right">
+        <a href="index.html#contact" class="scrollto">Add Schedules</a>
+      </div>
+
     </div>
+  </header><!-- End #header -->
 
-    <!-- Container around Results Tables -->
-    <div id="results-container"></div>
-    <script src="results.js"></script>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <!-- Loading Overlay -->
+      <div id="loading-overlay">
+      <div class="loading-spinner"></div>
+  </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <!-- Footer Section -->
-    <div class="footer">
-        <div class="container">
-            <!-- Social Media Links -->
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <ul class="sociel">
-                        <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div> 
-
-            <p class="disclaimer">
-                <span> We have no affiliation with any of the service busses listed here. All the data displayed 
-                through this website are collected from official records of Kerala MVD website.<br>
-                Actual arrival and departure timings of buses may vary according to the traffic and road conditions.
-                We are not responsible for any time discrepancy</span>
-            </p>
-            
-            <!-- Contact and Additional Links -->
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div class="contact">
-                        <h3>Contact Us</h3>
-                        <span>For Any Changes in Timings or Adding New Details,<br>
-                            Use the Form Below!<br>
-                            <a href="#">Click Here!</a>
-                        </span>
-                        
-                    </div>
-                </div>
-                
-                <!-- About Lighten -->
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div class="contact">
-                        <h3>About Us</h3>
-                        <span>Know the bus routes & their timings for better planning!
-                            </span>
-                    </div>
-                </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="contact">
-                            <h3>Data</h3>
-                            <span>
-                                <p>All Data are Collected from Kerala MVD Official Website</p>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="contact">
-                            <h3>Report Issues</h3>
-                            <span>To Report Any Issues Related to Stops or Times<br>
-                                Use the Form Below!<br>
-                                <a href="#">Click Here!</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        
-        <!-- Copyright -->
-        <div class="copyright">
-            <p>Copyright 2024 All Right Reserved By <a href="#">Kerala Bus Info</a></p>
-        </div>
+  <!-- Container around Results Tables -->
+  <div id="results-container" class="table-responsive-xl">
+    <div>
+      <h4>Your Search Results...</h4>
     </div>
+    <script src="assets/js/results.js"></script>
+  </div>
+  </section><!-- End Hero -->
 
-    <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <!-- Sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
-    <!-- Fancybox JS -->
-    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <!-- Select2 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    <!-- Your custom script.js file -->
-    <script src="script.js"></script>
+  <main id="main">
 
-    <script>
-        $(document).ready(function(){
-            // Initialize Select2 for the origin and destination dropdowns
-            $("#origin").select2();
-            $("#destination").select2();
 
-            $(".fancybox").fancybox({
-                openEffect: "none",
-                closeEffect: "none"
-            });
+  </main><!-- End #main -->
 
-            $(".zoom").hover(function(){
-                $(this).addClass('transition');
-            }, function(){
-                $(this).removeClass('transition');
-            });
-        });
-    </script>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class = "disclaimer">
+        We have no affiliation with any of the service busses listed here. All the data displayed through this website are collected from official records of Kerala MVD website. 
+        <br>Actual arrival and departure timings of buses may vary according to the traffic and road conditions.
+      </div>
+      <br>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Kerala Bus Routes</span></strong>. All Rights Reserved.
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End #footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
