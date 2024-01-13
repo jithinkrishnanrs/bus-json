@@ -29,7 +29,7 @@ a:hover {
   border-radius: 15px;
   max-width: 400px;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
   background-color: #ffffff;
   padding-top: 55px;
   box-shadow: 0 2px 5px rgba(158, 0, 202, 0.1);
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero h2 {
   color: #eee;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #hero .php-email-form .error-message {
