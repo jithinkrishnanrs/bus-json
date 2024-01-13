@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /restricted/
+Disallow: /assets/private/
+Disallow: /assets/restricted/
+Disallow: /json/
