@@ -33,6 +33,8 @@ a:hover {
   background-color: #ffffff;
   padding-top: 55px;
   box-shadow: 0 2px 5px rgba(158, 0, 202, 0.1);
+  opacity: 0; /* Initially set opacity to 0 for fade-in effect */
+  animation: fadeIn 1s ease-out forwards; /* Animation name, duration, timing function, and fill mode */
 }
 
 /* Dropdown Styles */
@@ -337,6 +339,18 @@ section {
   font-weight: 300;
   margin-bottom: 20px;
   padding-bottom: 0;
+  opacity: 0; /* Initially set opacity to 0 for fade-in effect */
+  animation: fadeIn 1s ease-out forwards; /* Animation name, duration, timing function, and fill mode */
+}
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start from fully transparent */
+  }
+  to {
+    opacity: 1; /* End with full visibility */
+  }
 }
 
 .section-title p {
