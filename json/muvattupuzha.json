@@ -24202,7 +24202,7 @@
         "PERUMBAVOOR STAND",
         "PATTIMATTOM",
         "KIZHAKKAMBALAM",
-        "KAKKANADU",
+        "KAKKANAD",
         "ERNAKULAM"
       ],
       "schedule": [
@@ -24220,7 +24220,7 @@
               "departureTime": "06:30 am"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "06:55 am",
               "departureTime": "06:55 am"
             },
@@ -24240,7 +24240,7 @@
               "departureTime": "07:44 am"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "08:14 am",
               "departureTime": "08:14 am"
             },
@@ -24280,7 +24280,7 @@
               "departureTime": "10:33 am"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "10:56 am",
               "departureTime": "10:56 am"
             },
@@ -24300,7 +24300,7 @@
               "departureTime": "11:57 am"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "12:27 pm",
               "departureTime": "12:27 pm"
             },
@@ -24330,7 +24330,7 @@
               "departureTime": "01:59 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "02:24 pm",
               "departureTime": "02:24 pm"
             },
@@ -24350,7 +24350,7 @@
               "departureTime": "03:35 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "04:05 pm",
               "departureTime": "04:05 pm"
             },
@@ -24400,7 +24400,7 @@
               "departureTime": "06:40 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "07:05 pm",
               "departureTime": "07:05 pm"
             },
@@ -24420,7 +24420,7 @@
               "departureTime": "07:44 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "08:14 pm",
               "departureTime": "08:14 pm"
             },
@@ -38427,7 +38427,7 @@
       "Vehicle Number": "KL 02 AE 6678",
       "route": [
         "THRIPUNITHURA",
-        "KAKKANADU",
+        "KAKKANAD",
         "KINFRA",
         "KIZHAKKAMBALAM BUS STAND",
         "PERUMBAVOOR  THRIPUNITHURA"
@@ -38457,7 +38457,7 @@
               "departureTime": "06:50 am"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "07:20 am",
               "departureTime": "07:20 am"
             }
@@ -38467,7 +38467,7 @@
           "trip": 3,
           "stations": [
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "07:20 am",
               "departureTime": "07:20 am"
             },
@@ -38487,7 +38487,7 @@
               "departureTime": "08:23 am"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "08:53 am",
               "departureTime": "08:53 am"
             },
@@ -38507,7 +38507,7 @@
               "departureTime": "09:00 am"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "09:11 am",
               "departureTime": "09:11 am"
             },
@@ -38527,7 +38527,7 @@
               "departureTime": "10:17 am"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "10:47 am",
               "departureTime": "10:47 am"
             }
@@ -38537,7 +38537,7 @@
           "trip": 7,
           "stations": [
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "11:58 am",
               "departureTime": "11:58 am"
             },
@@ -38557,7 +38557,7 @@
               "departureTime": "12:29 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "12:59 pm",
               "departureTime": "01:15 pm"
             },
@@ -38577,7 +38577,7 @@
               "departureTime": "02:10 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "02:16 pm",
               "departureTime": "02:36 pm"
             },
@@ -38597,7 +38597,7 @@
               "departureTime": "03:21 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "03:51 pm",
               "departureTime": "03:51 pm"
             },
@@ -38617,7 +38617,7 @@
               "departureTime": "03:59 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "04:05 pm",
               "departureTime": "04:15 pm"
             },
@@ -38637,7 +38637,7 @@
               "departureTime": "05:10 pm"
             },
             {
-              "station": "KAKKANADU",
+              "station": "KAKKANAD",
               "arrivalTime": "05:40 pm",
               "departureTime": "05:44 pm"
             },
