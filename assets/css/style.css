@@ -191,12 +191,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   
   #filters {
     max-width: 100%;
-  }
-  
-  @media screen and (min-width: 1201px) {
-    #filters {
-      max-width: 1200px;
-    }
+    padding: 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    justify-self: center;
   }
   
   
