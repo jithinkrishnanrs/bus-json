@@ -127,3 +127,12 @@ button:hover {
         overflow-x: auto;
     }
 }
+
+/* Animation for row hover */
+#results-container table tr:not(:first-child) {
+    transition: transform 0.3s ease-in-out;
+}
+
+#results-container table tr:not(:first-child):hover {
+    transform: scale(1.08); /* Adjust the scale factor for the zoom effect */
+}
