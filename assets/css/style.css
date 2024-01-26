@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   #hero .hero-container {
     position: absolute;
     bottom: 0;
@@ -197,6 +197,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     padding-top: 45px;
     padding-bottom: 45px;
     justify-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
   }
   
   
