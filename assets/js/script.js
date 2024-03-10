@@ -112,3 +112,18 @@ function showResults() {
 function showLoading() {
     document.getElementById('loading-overlay').style.display = 'flex';
 }
+
+function showStationResults() {
+    const stationDropdown = $('#station-search');
+    const stationValue = stationDropdown.val();
+
+    // Show loading overlay or spinner
+    showLoading();
+
+    // Use setTimeout to simulate a delay of 100 milliseconds
+    setTimeout(() => {
+        // Redirect to results.html with query parameter for the selected station
+        window.location.href = `results.html?station=${stationValue}`;
+    }, 100); // 100 milliseconds
+}
+
