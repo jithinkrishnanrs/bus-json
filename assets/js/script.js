@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         'json/pathanamthitta.json',
         'json/vadakara.json',
         'json/wayanad.json'
-      ];
+    ];
 
     // Fetch data from each JSON file
     Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json())))
@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Populate searchable dropdowns with unique and sorted stations
             initializeSearchableDropdown(jsonDataArray, 'origin');
             initializeSearchableDropdown(jsonDataArray, 'destination');
+            populateAllStops(jsonDataArray); // Call the function to populate all stops
         })
         .catch(error => {
             console.error('Error fetching JSON:', error);
@@ -59,6 +60,37 @@ function getUniqueStations(jsonDataArray) {
 
     // Convert the set to an array and return unique stations
     return Array.from(allStations);
+}
+
+function populateAllStops(jsonDataArray) {
+    const allStopsDropdown = $('#station-search');
+
+    // Get all stops from the JSON data
+    const allStops = getUniqueStations(jsonDataArray);
+    allStops.sort();
+
+    // Clear existing options
+    allStopsDropdown.empty();
+
+    // Add an option for 'All Stops'
+    allStopsDropdown.append($('<option>', {
+        value: 'all',
+        text: 'All Stops'
+    }));
+
+    // Add options for each stop
+    allStops.forEach(stop => {
+        allStopsDropdown.append($('<option>', {
+            value: stop,
+            text: stop
+        }));
+    });
+
+    // Initialize Select2 for the dropdown
+    allStopsDropdown.select2({
+        width: '100%', // Adjust the width as needed
+        placeholder: 'Search by Bus Station'
+    });
 }
 
 function showResults() {
